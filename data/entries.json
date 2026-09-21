@@ -1,0 +1,3750 @@
+[
+  {
+    "name": "TypeSafe AI",
+    "url": "https://typesafe.ai/",
+    "description": "The company behind Jev and System One models.",
+    "category": "Official Resources",
+    "tags": []
+  },
+  {
+    "name": "Introducing System One Models and Jev",
+    "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+    "description": "The announcement post explaining what a System One model is and how Jev differs from an LLM.",
+    "category": "Official Resources",
+    "tags": []
+  },
+  {
+    "name": "typesafe-ai/skills",
+    "url": "https://github.com/typesafe-ai/skills",
+    "description": "Official installable agent skills package (`npx skills add typesafe-ai/skills`) that teaches coding agents the Jev workflow.",
+    "category": "Official Resources",
+    "tags": []
+  },
+  {
+    "name": "typesafe-ai on GitHub",
+    "url": "https://github.com/typesafe-ai",
+    "description": "Official GitHub organization.",
+    "category": "Official Resources",
+    "tags": []
+  },
+  {
+    "name": "Introducing System One Models and Jev (Hacker News)",
+    "url": "https://news.ycombinator.com/item?id=49717558",
+    "description": "The original launch thread, debating whether typed decisions can replace LLM calls for classification, routing, and verification.",
+    "category": "Related Practices & Discussions",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "Jev Ultrafast",
+    "url": "https://github.com/browser-use/jev-ultrafast",
+    "description": "Browser-use's fastest agent mode, where Jev picks each action and click target and a language model is called only when text must be typed.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "QuantDinger",
+    "url": "https://github.com/OpenByteInc/QuantDinger",
+    "description": "Open-source AI trading OS for crypto, stocks, and forex with Jev integrated for strategy decisions across research, backtesting, and paper or live trading.",
+    "category": "Finance & Trading",
+    "tags": [
+      "finance"
+    ]
+  },
+  {
+    "name": "fast-jev-compaction",
+    "url": "https://github.com/tamaratran/fast-jev-compaction",
+    "description": "Claude Code plugin that replaces compaction summaries with Jev decisions, scoring every tool call and result in one request and keeping whatever survives verbatim.",
+    "category": "Context & Memory",
+    "tags": [
+      "context-management",
+      "coding-agents",
+      "plugin"
+    ]
+  },
+  {
+    "name": "SemIf",
+    "url": "https://github.com/TheoLeeCJ/SemIf",
+    "description": "Semantic if-statements served from open models on a single consumer GPU, an independent take on the Jev idea.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "kev",
+    "url": "https://github.com/jaredpalmer/kev",
+    "description": "Tiny Jev-like family of decision models built on Qwen3.5 that you can train and run on your own machine.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "NanoJev",
+    "url": "https://github.com/TianyuCodings/NanoJev",
+    "description": "Nano replica of Jev with parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "jev-trader (jarrodwatts)",
+    "url": "https://github.com/jarrodwatts/jev-trader",
+    "description": "Makes one AI trade decision every Monad block, with Jev deciding on the Kuru MON-USDC market.",
+    "category": "Finance & Trading",
+    "tags": [
+      "finance"
+    ]
+  },
+  {
+    "name": "jevlike",
+    "url": "https://github.com/vinnylarouge/jevlike",
+    "description": "Training library for small models that choose among a variable list of text options and return one probability per option in a single pass.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "reticle",
+    "url": "https://github.com/reticlehq/reticle",
+    "description": "Gives coding agents Jev-style machine-native runtime perception of the web and desktop applications they build.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "hippo-memory",
+    "url": "https://github.com/kitfunso/hippo-memory",
+    "description": "Biologically inspired agent memory with decay, retrieval strengthening, and consolidation over SQLite and MCP, with an opt-in Jev reranker.",
+    "category": "Context & Memory",
+    "tags": [
+      "memory",
+      "mcp"
+    ]
+  },
+  {
+    "name": "jev-review (devagrawal09)",
+    "url": "https://github.com/devagrawal09/jev-review",
+    "description": "Staged code-review workflow and local dashboard where Jev gates each review stage before a change advances.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "foreman",
+    "url": "https://github.com/thruwire/foreman",
+    "description": "Software-factory foreman that sits above Codex workers and has Jev judge whether an implementation is complete, its tests sufficient, or a human is needed.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "verification"
+    ]
+  },
+  {
+    "name": "minecraft-agent",
+    "url": "https://github.com/rmalde/minecraft-agent",
+    "description": "Minecraft agent with an Astra planner and a Jev controller, with native recording, tested routes, and run verification.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "simple-jev",
+    "url": "https://github.com/featherless-ai/simple-jev",
+    "description": "Turns any open model into a classifier or Jev-style decision endpoint.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "vexjoy-agent",
+    "url": "https://github.com/notque/vexjoy-agent",
+    "description": "Agent whose /do command routes plain-English requests to the right specialist agent with Jev and gates the work with reviews, tests, and a learning loop.",
+    "category": "Agent Frameworks & Harnesses",
+    "tags": [
+      "routing"
+    ]
+  },
+  {
+    "name": "hermes-jev-skills",
+    "url": "https://github.com/kerpopule/hermes-jev-skills",
+    "description": "Jev-powered model routing, memory, compaction, skill selection, and computer and browser use for Hermes agents, Claude Code, and Codex.",
+    "category": "Coding Agents",
+    "tags": [
+      "skills",
+      "routing",
+      "context-management"
+    ]
+  },
+  {
+    "name": "jev-search",
+    "url": "https://github.com/superagents-lab/jev-search",
+    "description": "Web search where Jev handles source selection, query understanding, and relevance ranking over Search1API results.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "rag",
+      "scoring"
+    ]
+  },
+  {
+    "name": "jev-experiments",
+    "url": "https://github.com/dabit3/jev-experiments",
+    "description": "Collection of 22 latency-focused Jev demo applications spanning shell guards, log sentinels, instant search, reranking, and voice turn-taking.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": []
+  },
+  {
+    "name": "jev-skill",
+    "url": "https://github.com/wuyoscar/jev-skill",
+    "description": "Collection of Jev use cases, workflows, and agent skills.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "name": "tax-doc-classifier",
+    "url": "https://github.com/kyotofin/tax-doc-classifier",
+    "description": "Tax document page classifier built on Jev decisions, reporting strict accuracy across 261 IRS form types at about $0.001 per page.",
+    "category": "Classification & Routing",
+    "tags": [
+      "classification"
+    ]
+  },
+  {
+    "name": "von",
+    "url": "https://github.com/wfzyx/von",
+    "description": "Open-source non-autoregressive System One decision model that answers in under 15 ms as a local drop-in alternative to Jev.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "typesafe-mario",
+    "url": "https://github.com/fhshaik/typesafe-mario",
+    "description": "Plays Super Mario Bros. by choosing each action from structured emulator state instead of raw pixels.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "jev-browser-use",
+    "url": "https://github.com/wy-coliney/jev-browser-use",
+    "description": "Browser automation where Jev handles clicks while Codex plans and verifies, reported 5-10x faster than LLM-only operation.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "jev-router",
+    "url": "https://github.com/gargpratyush/jev-router",
+    "description": "Routes Claude Code tasks to the cheapest capable model by asking Jev to choose among candidates.",
+    "category": "Classification & Routing",
+    "tags": [
+      "routing",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "pg-jev",
+    "url": "https://github.com/realZachi/pg-jev",
+    "description": "PostgreSQL extension that lets you ask your tables questions in plain language, with Jev answering per row.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "sql"
+    ]
+  },
+  {
+    "name": "openjev (razorback16)",
+    "url": "https://github.com/razorback16/openjev",
+    "description": "Open Jev-compatible System One decision server built on DiffusionGemma.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-align",
+    "url": "https://github.com/sutro-sh/jev-align",
+    "description": "Builds calibrated AI functions from human feedback using Jev and GEPA.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "openjev-sglang",
+    "url": "https://github.com/ekzhang/openjev-sglang",
+    "description": "Jev-compatible API endpoint served from open models using prefill-only inference in SGLang.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "openJev-verdict-2.0",
+    "url": "https://github.com/Heman10x-NGU/openJev-verdict-2.0",
+    "description": "Calibrated 151M-parameter non-autoregressive decision engine with published accuracy, Brier, and ECE numbers against Jev and Laya.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "evaluation"
+    ]
+  },
+  {
+    "name": "quackd",
+    "url": "https://github.com/rokbenko/quackd",
+    "description": "One CLI for many robot platforms where an LLM plans and Jev takes the cheaper per-step decisions, with a simulator, safety contracts, and MCP.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "robotics",
+      "mcp"
+    ]
+  },
+  {
+    "name": "skillbox",
+    "url": "https://github.com/kitze/skillbox",
+    "description": "Self-hosted versioned skills library for AI agents with MCP access, scoped clients, and optional Jev recommendations.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "skills",
+      "mcp"
+    ]
+  },
+  {
+    "name": "jev-browser (jkudish)",
+    "url": "https://github.com/jkudish/jev-browser",
+    "description": "Drives a browser with Jev deciding each step.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "jev-mcp (jkudish)",
+    "url": "https://github.com/jkudish/jev-mcp",
+    "description": "Exposes fast, typed Jev judgments as MCP tools.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "mcp"
+    ]
+  },
+  {
+    "name": "jev-visual",
+    "url": "https://github.com/hr98w/jev-visual",
+    "description": "Educational Jev-like visual inference experiment on Apple Silicon with shared context and direct candidate scoring.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "jev-voice-browser",
+    "url": "https://github.com/moritzkremb/jev-voice-browser",
+    "description": "Controls a real browser by voice, with Jev deciding intent and target per spoken word in about 300 ms while Playwright acts.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation",
+      "voice"
+    ]
+  },
+  {
+    "name": "jeff (logan-markewich)",
+    "url": "https://github.com/logan-markewich/jeff",
+    "description": "Self-hosted drop-in replacement for Jev powered by GliFormer.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-review (NiazMorshed2007)",
+    "url": "https://github.com/NiazMorshed2007/jev-review",
+    "description": "Local-first MCP plugin for continuous software-quality review by coding agents.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification",
+      "mcp",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "typesafe-mcp",
+    "url": "https://github.com/itsmostafa/typesafe-mcp",
+    "description": "MCP connector that gives any agent direct access to Jev.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "mcp"
+    ]
+  },
+  {
+    "name": "docjev",
+    "url": "https://github.com/jerryjliu/docjev",
+    "description": "Very fast document classifier and splitter using Jev.",
+    "category": "Classification & Routing",
+    "tags": [
+      "classification"
+    ]
+  },
+  {
+    "name": "perch",
+    "url": "https://github.com/lakeday-org/perch",
+    "description": "Semantic code linting with Jev.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification"
+    ]
+  },
+  {
+    "name": "embodied-jev",
+    "url": "https://github.com/FBddcz/embodied-jev",
+    "description": "MuJoCo robot decision workbench for MiniCPM, Jev, and compatible model APIs.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "name": "unclutter",
+    "url": "https://github.com/kitze/unclutter",
+    "description": "WXT browser extension that asks Jev whether each page element is clutter and removes it under reusable template rules.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "name": "jev-codex-router",
+    "url": "https://github.com/0xNatoshi/jev-codex-router",
+    "description": "Per-turn routing for Codex where Jev picks the model, thinking depth, and speed mode for every turn.",
+    "category": "Classification & Routing",
+    "tags": [
+      "routing",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "rizzo-flow",
+    "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+    "description": "Open, local take on Jev that gets typed decisions from an LLM without generating a single token.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jevpilot",
+    "url": "https://github.com/standardagents/jevpilot",
+    "description": "Playable Three.js driving simulator with a Jev-powered autopilot.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "JevRouter",
+    "url": "https://github.com/BillionsBobby/JevRouter",
+    "description": "Lightweight Jev-powered router for models, tools, and subagents.",
+    "category": "Classification & Routing",
+    "tags": [
+      "routing"
+    ]
+  },
+  {
+    "name": "neurolink",
+    "url": "https://github.com/juspay/neurolink",
+    "description": "TypeScript interface to 40 AI providers whose decide operation returns typed, calibrated judgments via Jev instead of text.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-pruner",
+    "url": "https://github.com/tamaratran/jev-pruner",
+    "description": "Claude Code plugin that trims long Bash output with Jev before the model sees it.",
+    "category": "Context & Memory",
+    "tags": [
+      "context-management",
+      "coding-agents",
+      "plugin"
+    ]
+  },
+  {
+    "name": "laya (receptron)",
+    "url": "https://github.com/receptron/laya",
+    "description": "Runs Laya, the open-source Jev-compatible decision model, from Node.js and TypeScript via ONNX Runtime.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk",
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "pi-jev (y0usaf)",
+    "url": "https://github.com/y0usaf/pi-jev",
+    "description": "Adds a measured tool-call gate and a jev_ask tool for typed, calibrated answers to the Pi coding agent.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "guardrails"
+    ]
+  },
+  {
+    "name": "building-with-jev-skill",
+    "url": "https://github.com/dbreunig/building-with-jev-skill",
+    "description": "Agent skill for writing and improving programs that call Jev.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "name": "pi-warden",
+    "url": "https://github.com/DevMortimer/pi-warden",
+    "description": "Guardrails for Pi that steer rather than interrupt: Jev judges irreversible and off-task tool calls, detects stuck loops, and checks unverified done claims.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "guardrails",
+      "agent-safety"
+    ]
+  },
+  {
+    "name": "jev-chat-JARVIS",
+    "url": "https://github.com/Finderchangchang/jev-chat-JARVIS",
+    "description": "Mobile chat copilot for WeChat, QQ, and X DMs that reads the other side's intent and risk level and has Jev rank three candidate replies to fill in with one tap.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "mobile",
+      "productivity"
+    ]
+  },
+  {
+    "name": "Jev-cu",
+    "url": "https://github.com/Sac-Y/Jev-cu",
+    "description": "Hands Codex Computer Use's next-step choice to Jev, which picks element, action, completion, and risk from on-screen text candidates while local policy gates block sensitive operations.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "computer-use",
+      "agent-safety"
+    ]
+  },
+  {
+    "name": "mobile-jev",
+    "url": "https://github.com/droidrun/mobile-jev",
+    "description": "Standalone Android agent for Mobilerun where Jev makes every decision, demoed opening Uber and entering a route in about 21 seconds for 9 actions.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "mobile",
+      "computer-use"
+    ]
+  },
+  {
+    "name": "Jev-X-Sentiment-Analysis",
+    "url": "https://github.com/brainstormity/Jev-X-Sentiment-Analysis",
+    "description": "Crypto market terminal that pulls up to 1,000 tweets for a coin and turns them into a Buy, Sell, Hold, or Take Profit decision with Jev.",
+    "category": "Finance & Trading",
+    "tags": [
+      "finance"
+    ]
+  },
+  {
+    "name": "jev-eval-agent",
+    "url": "https://github.com/vinilana/jev-eval-agent",
+    "description": "Personal-assistant agent built on eve with 100 mocked tools, measuring how many steps a task takes when the LLM picks tools versus when Jev picks them.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation"
+    ]
+  },
+  {
+    "name": "save-token-jev",
+    "url": "https://github.com/IAmUnbounded/save-token-jev-clean",
+    "description": "Portable Jev-guided context compaction for coding agents that asks Jev which tool calls still matter and keeps user and assistant text verbatim.",
+    "category": "Context & Memory",
+    "tags": [
+      "context-management",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "Open-Jev",
+    "url": "https://github.com/Zefan-Cai/Open-Jev",
+    "description": "Open probability decisions from Qwen3.5-2B, 9B, and 27B models: supply context, questions, and candidates and get typed probabilities without generating text.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "oxlint-plugin-jev",
+    "url": "https://github.com/wobsoriano/oxlint-plugin-jev",
+    "description": "Oxlint rules written in plain English and answered by Jev, reporting an error when the yes-probability clears your cutoff.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification"
+    ]
+  },
+  {
+    "name": "Jev Moderation Bot",
+    "url": "https://github.com/brainstormity/Jev-Moderation-Bot",
+    "description": "Discord bot that scores incoming messages for phishing, spam, and social engineering and drives a staged escalation ladder.",
+    "category": "Content Moderation & Feeds",
+    "tags": [
+      "moderation"
+    ]
+  },
+  {
+    "name": "jev-robot-control",
+    "url": "https://github.com/openroboto-ai/jev-robot-control",
+    "description": "Compares Jev with GPT-6 Astra and GPT-4.1 mini at direct Cartesian control of an xArm7 in MuJoCo, with recorded responses and trajectories.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "robotics",
+      "evaluation"
+    ]
+  },
+  {
+    "name": "jev-webmcp-extension",
+    "url": "https://github.com/sdras/jev-webmcp-extension",
+    "description": "Chrome extension that uses Jev to select and populate WebMCP tool calls from user input, showing predicted calls, confidence, and latency as you type.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation",
+      "mcp"
+    ]
+  },
+  {
+    "name": "JevScout",
+    "url": "https://github.com/hqman/JevScout",
+    "description": "Coding-agent skill that hunts software jobs on real company sites, with Chrome acting over CDP and Jev scoring every link and job instead of the host LLM.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "skills",
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "jev-playground (mizchi)",
+    "url": "https://github.com/mizchi/jev-playground",
+    "description": "MoonBit client and CLI for the Jev API covering noul, choice, and score questions with typed responses.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "Pi-Jev-Guide",
+    "url": "https://github.com/zszz3/Pi-Jev-Guide",
+    "description": "Pi Coding Agent plugin with timed rule checks, risk screening, output redaction, and reminders on repeated failures or missing verification, using local matching or Jev judgment.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "guardrails",
+      "plugin"
+    ]
+  },
+  {
+    "name": "jevfill",
+    "url": "https://github.com/imohitmayank/jevfill",
+    "description": "Chrome extension that autofills web forms from unstructured pasted notes using Jev, with no structured profile required.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "name": "jev-game-tools",
+    "url": "https://github.com/Eniip/jev-game-tools",
+    "description": "Drives real-time games, starting with Brotato, with Jev making every-frame decisions and a slower Claude strategist making long-term ones.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "jev-directory",
+    "url": "https://github.com/everyai-com/jev-directory",
+    "description": "Browsable directory of 50 runnable judge-model evals and 1,300+ community builds, delivered as a capability pack and MCP server for agents.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": [
+      "mcp"
+    ]
+  },
+  {
+    "name": "Jev demos (mayank953)",
+    "url": "https://github.com/mayank953/Jev",
+    "description": "Six live side-by-side demos where Jev makes the decision, an LLM writes the words, and your code owns the control flow.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": []
+  },
+  {
+    "name": "Nemotron_Jev",
+    "url": "https://github.com/pst2154/Nemotron_Jev",
+    "description": "Experimental TypeSafe-shaped API and decision-lab explorer over the dense Nemotron Diffusion 14B model, for inspecting probability distributions on typed questions.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "mario-jev",
+    "url": "https://github.com/shantanugoel/mario-jev",
+    "description": "Python prototype that plays NES Super Mario Bros. from structured RAM observations, with Jev answering focused movement and jump-timing questions.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "jevs-fly",
+    "url": "https://github.com/webdevcody/jevs-fly",
+    "description": "Three.js FPV garden game where Jev chooses the fly's heading and dive about five times per second.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "specpi-jev-guard",
+    "url": "https://github.com/TannerMidd/specpi-jev-guard",
+    "description": "Checks risky shell and file commands with Jev before your agent runs them.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "guardrails",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev (aaazzam)",
+    "url": "https://github.com/aaazzam/jev",
+    "description": "Python decorator that compiles a typed function definition into a Jev request and returns a validated instance of the return annotation.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-workflow-builder",
+    "url": "https://github.com/CTNicholas/jev-workflow-builder",
+    "description": "Multiplayer workflow builder for wiring Jev and LLMs together with Liveblocks, with a REST API to call workflows and preview test runs.",
+    "category": "Integrations & Infrastructure",
+    "tags": []
+  },
+  {
+    "name": "laravel-jev",
+    "url": "https://github.com/i-priyanshuverma/laravel-jev",
+    "description": "Fluent Laravel API for semantic classification and decisions with single-line is, choose, and score methods.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "zod-jev",
+    "url": "https://github.com/jomatsu/zod-jev",
+    "description": "Composes Jev semantic checks into Zod 4 schemas so shape rules stay in Zod and meaning judgments become calibrated probabilities.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk",
+      "verification"
+    ]
+  },
+  {
+    "name": "omp-jev",
+    "url": "https://github.com/thejorgg/omp-jev",
+    "description": "Jev routing for Oh My Pi with an opt-in checkpoint orchestrator and editable configuration.",
+    "category": "Coding Agents",
+    "tags": [
+      "routing",
+      "coding-agents",
+      "plugin"
+    ]
+  },
+  {
+    "name": "typesafe-jev-workflow",
+    "url": "https://github.com/GiesN/typesafe-jev-workflow",
+    "description": "Small async LangGraph workflow that gets a typed invoice-or-general Choice from Jev for an inbound email and routes it to the matching handler.",
+    "category": "Classification & Routing",
+    "tags": [
+      "classification",
+      "email"
+    ]
+  },
+  {
+    "name": "Instinct",
+    "url": "https://github.com/joevidev/ui-generator-instinct-jev",
+    "description": "UI generator demo where Jev picks which real shadcn/ui component or page block to render from a free-text description, without generating code.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "fast-jev-compaction-laya",
+    "url": "https://github.com/kaiyes/fast-jev-compaction-laya",
+    "description": "Local, key-free context compaction for opencode using the open-weight Laya models on Apple Silicon to decide what to keep, truncate, or drop.",
+    "category": "Context & Memory",
+    "tags": [
+      "context-management",
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-rts",
+    "url": "https://github.com/studioigor/jev-rts",
+    "description": "Real-time strategy experiment where the model makes the decisions for an entire army across two factions, built for a YouTube series.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "JevNQL",
+    "url": "https://github.com/Adityakhalkar/JevNQL",
+    "description": "Compiles natural-language data questions into query plans that mix deterministic operators with Jev-evaluated semantic predicates.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "sql"
+    ]
+  },
+  {
+    "name": "dsh-plugin-jev",
+    "url": "https://github.com/cyberofficial/dsh-plugin-jev",
+    "description": "Gives the DeepSeek Harness web GUI a jev_ask tool for calibrated judgments plus a settings tab and per-chat usage chip.",
+    "category": "Coding Agents",
+    "tags": [
+      "plugin",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "JevOps",
+    "url": "https://github.com/endomorphosis/JevOps",
+    "description": "Jev gating kernel split out from Lean Refactor Arena, where Jev acts as a gate rather than a generator for proof-refactoring pipelines.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "verification",
+      "research"
+    ]
+  },
+  {
+    "name": "jev-in-blender-experiment",
+    "url": "https://github.com/kolibril13/jev-in-blender-experiment",
+    "description": "Blender extension that adds a Jev tab for finding and running operators from a plain-language description.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "name": "JevBird",
+    "url": "https://github.com/leftspace89/JevBird",
+    "description": "Flappy Bird played in real time by Jev, which picks the flight path through each pipe gap from a simulated spread of candidates.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "JevTuner",
+    "url": "https://github.com/liushiliushi/JevTuner",
+    "description": "Trains language models to emit calibrated probability distributions for closed-set decision tasks directly from token logits.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "research",
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-telop-live",
+    "url": "https://github.com/ponyo877/jev-telop-live",
+    "description": "Talk to your camera and Japanese variety-show captions and manga effects appear automatically, with Jev matching effects to what you say.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "voice"
+    ]
+  },
+  {
+    "name": "jev-plays-streetfighter-2",
+    "url": "https://github.com/smartaces/jev-plays-streetfighter-2",
+    "description": "Lets Jev play Ryu in Street Fighter II on a Genesis emulator from structured RAM observations, with a local dashboard of what it sees and chooses.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "jev_deep_rl",
+    "url": "https://github.com/taodav/jev_deep_rl",
+    "description": "Evaluates Jev as a fixed policy in Gymnasium and Atari environments, recording rewards against a seeded random baseline.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation",
+      "game"
+    ]
+  },
+  {
+    "name": "codex-jev-router",
+    "url": "https://github.com/tiandee/codex-jev-router",
+    "description": "Routes Codex CLI turns through a local proxy where Jev selects the model and reasoning effort per turn, falling back to Codex's defaults when unavailable.",
+    "category": "Classification & Routing",
+    "tags": [
+      "routing",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jevbench",
+    "url": "https://github.com/fstandhartinger/jevbench",
+    "description": "Benchmark for Jev-class typed decision models covering accuracy, cost, speed, and reliability.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation"
+    ]
+  },
+  {
+    "name": "jev-voice (kevinbadi)",
+    "url": "https://github.com/kevinbadi/jev-voice",
+    "description": "Voice control for your Mac using local whisper.cpp, one Jev call per command, and macOS automation.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "voice",
+      "computer-use"
+    ]
+  },
+  {
+    "name": "OpenJev (SiliconLabAI)",
+    "url": "https://github.com/SiliconLabAI/OpenJev",
+    "description": "Open-source Jev reimplementation.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "ruby_decision_model",
+    "url": "https://github.com/obie/ruby_decision_model",
+    "description": "Ruby client for decision models such as Jev.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-paint",
+    "url": "https://github.com/achimala/jev-paint",
+    "description": "Creative experiment that makes images with Jev deciding each stroke.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "OpenDecision",
+    "url": "https://github.com/deepanwadhwa/OpenDecision",
+    "description": "Open-source semantic decision engine in the style of Jev.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-libero",
+    "url": "https://github.com/Dimweaker/jev-libero",
+    "description": "Fine-grained robot control with Jev, physics previews, and configurable LIBERO tasks.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "name": "jev-rules",
+    "url": "https://github.com/EliaAlberti/jev-rules",
+    "description": "Has Jev pick which of your rules apply to each prompt so Claude only sees the ones that matter.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "context-management"
+    ]
+  },
+  {
+    "name": "winnow",
+    "url": "https://github.com/GhalebDweikat/winnow",
+    "description": "Calibrated context sieve for Claude Code that has a System One model judge every tool result before it enters context.",
+    "category": "Context & Memory",
+    "tags": [
+      "context-management",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "vibecheck",
+    "url": "https://github.com/RafalWilinski/vibecheck",
+    "description": "Chrome extension that vibe-checks your X posts with Jev before you hit Post.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "name": "open-alternative-jev",
+    "url": "https://github.com/ikermoel/open-alternative-jev",
+    "description": "System One style layer that gives typed, calibrated decisions from any open-weights LLM in one forward pass via HF and vLLM, with published benchmarks.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-sift",
+    "url": "https://github.com/kbhuw/jev-sift",
+    "description": "Portable agent plugin and MCP tool for batch text classification so agents classify first and read selectively.",
+    "category": "Classification & Routing",
+    "tags": [
+      "classification",
+      "mcp",
+      "plugin"
+    ]
+  },
+  {
+    "name": "hono-jev-router",
+    "url": "https://github.com/yusukebe/hono-jev-router",
+    "description": "Semantic router for Hono that routes HTTP requests by meaning with Jev.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "routing"
+    ]
+  },
+  {
+    "name": "sarvam-jev",
+    "url": "https://github.com/SAGAR-TAMANG/sarvam-jev",
+    "description": "Open Jev-style inference engine on sarvam-1 for generation-free typed decisions on Indic LLMs, running client-side in the browser.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-recruiter",
+    "url": "https://github.com/skeptrunedev/jev-recruiter",
+    "description": "LinkedIn recruiting agent that browses profiles, saves links, and reviews evidence against your hiring brief with Jev.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "jevgrep",
+    "url": "https://github.com/nassim-arifette/jevgrep",
+    "description": "Semantic code search for coding agents that finds behavior across repositories via CLI or MCP, with exact source excerpts and line numbers.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "coding-agents",
+      "mcp"
+    ]
+  },
+  {
+    "name": "blink (ellipsis-dev)",
+    "url": "https://github.com/ellipsis-dev/blink",
+    "description": "Codebase search powered by Jev.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jevmail",
+    "url": "https://github.com/fazlerocks/jevmail",
+    "description": "Read-only local Gmail triage that sorts your inbox into needs-reply, updates, promos, sales, and spam with Jev, about 1,000 emails a minute for 3 cents.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "email",
+      "productivity"
+    ]
+  },
+  {
+    "name": "HA-Jev",
+    "url": "https://github.com/AboveColin/HA-Jev",
+    "description": "Home Assistant integration exposing Jev answers as sensors, four automation actions, and a conversation agent for Assist.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "name": "jev-design",
+    "url": "https://github.com/bilune/jev-design",
+    "description": "Console whose whole design system is generated at runtime by Jev from a one-sentence brief.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "mini-jev",
+    "url": "https://github.com/r-ms/mini-jev",
+    "description": "Jev-style typed-decision interface on a frozen Qwen3-4B that reads option-letter logits instead of generating JSON, with a preregistered experiment.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "jev-social",
+    "url": "https://github.com/socai-io/jev-social",
+    "description": "Instagram, TikTok, and LinkedIn research agent with typed routing, real browser evidence, streamed post cards, and cited reports.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "live-jev",
+    "url": "https://github.com/okinaaudio/live-jev",
+    "description": "Controls Ableton Live from one short sentence in Japanese or English, typed or dictated.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "voice",
+      "productivity"
+    ]
+  },
+  {
+    "name": "ask-jev-skill",
+    "url": "https://github.com/shantanugoel/ask-jev-skill",
+    "description": "Skill for Hermes and other agents to ask Jev typed questions.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "name": "Jevbridge",
+    "url": "https://github.com/tacticocc/Jevbridge",
+    "description": "ACP and MCP adapter that bridges Jev with any LLM for computer use and typed decisions alongside Codex, Claude, Grok, and OpenCode.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "mcp"
+    ]
+  },
+  {
+    "name": "typesafe-ai-benchmark",
+    "url": "https://github.com/iammrduncan/typesafe-ai-benchmark",
+    "description": "LLM gateway that mimics TypeSafe's structured-output API, an imposter Jev for testing.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "open-jev-typed-decision-engine",
+    "url": "https://github.com/intikhab49/open-jev-typed-decision-engine",
+    "description": "150M-parameter typed decision engine answering noul, choice, and score in one non-autoregressive pass, trainable on a Colab T4 in 30 minutes.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "litjev",
+    "url": "https://github.com/zhengxuyu/litjev",
+    "description": "Turns any off-the-shelf LLM into a Jev-like decision layer.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-mcp (burnigtm)",
+    "url": "https://github.com/burnigtm/jev-mcp",
+    "description": "MCP server that puts Jev on the coding loop in Cursor, Codex, and any MCP client.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "mcp",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev-dataops",
+    "url": "https://github.com/RenaGao/jev-dataops",
+    "description": "Workbench for streaming data selection, quality evaluation, automatic LoRA training, and held-out model evaluation driven by Jev.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "call-coach-ai",
+    "url": "https://github.com/ZeroGold/call-coach-ai",
+    "description": "Call coaching tool powered by Jev.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "commit-miner",
+    "url": "https://github.com/devanshbatham/commit-miner",
+    "description": "Classifies Git commit diffs and messages with Jev into bug fixes, security fixes with CWEs, and change types.",
+    "category": "Classification & Routing",
+    "tags": [
+      "classification"
+    ]
+  },
+  {
+    "name": "NylonME",
+    "url": "https://github.com/nylon-memory/NylonME",
+    "description": "Memory engine for agents that models memories as woven threads in a weighted graph and pairs with Jev for higher decision accuracy.",
+    "category": "Context & Memory",
+    "tags": [
+      "memory"
+    ]
+  },
+  {
+    "name": "jevals",
+    "url": "https://github.com/openlayer-ai/jevals",
+    "description": "Agent evals and guardrails in one request, built on Jev, Kev, and Laya.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation",
+      "guardrails"
+    ]
+  },
+  {
+    "name": "pi-jev (TheoOliveira)",
+    "url": "https://github.com/TheoOliveira/pi-jev",
+    "description": "Semantic tool routing and typed System One decisions for the Pi coding agent.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "routing"
+    ]
+  },
+  {
+    "name": "jev-reviewer",
+    "url": "https://github.com/choxos/jev-reviewer",
+    "description": "Data extraction for systematic reviews where Jev points at the lines in a trial report and every answer is a verbatim quote with its page, all in the browser.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "jev-recall",
+    "url": "https://github.com/samdotmak/jev-recall",
+    "description": "Filters an AI assistant's memories by relevance rather than resemblance using Jev.",
+    "category": "Context & Memory",
+    "tags": [
+      "memory"
+    ]
+  },
+  {
+    "name": "jev-calibrate",
+    "url": "https://github.com/smkrv/jev-calibrate",
+    "description": "Calibrates Jev questions against your own labels by tuning criteria on labelled examples and confirming on a held-out set.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation"
+    ]
+  },
+  {
+    "name": "sharp",
+    "url": "https://github.com/tshmieldev/sharp",
+    "description": "Filters your X.com feed with Jev or any LLM.",
+    "category": "Content Moderation & Feeds",
+    "tags": [
+      "moderation",
+      "productivity"
+    ]
+  },
+  {
+    "name": "jev-skill-suggester",
+    "url": "https://github.com/win4r/jev-skill-suggester",
+    "description": "Bounded installed-skill recommendations with Jev, as a Python CLI and Codex skill with bilingual docs.",
+    "category": "Coding Agents",
+    "tags": [
+      "skills",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev-seo",
+    "url": "https://github.com/AkashPriyadarshii/jev-seo",
+    "description": "Agent-first SEO and GEO CLI suite and MCP server in Rust built on DuckDuckGo and Jev.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "mcp"
+    ]
+  },
+  {
+    "name": "refgarden",
+    "url": "https://github.com/AlbionaHoti/refgarden",
+    "description": "Spatial reference explorer for creators with local Jev query choices, metadata highlights, and source-linked collections.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "ai-news-aggregator",
+    "url": "https://github.com/flyryan/ai-news-aggregator",
+    "description": "Multi-agent AI news pipeline powered by GLM-5.3-Flash and Jev.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "TypeSafe Swift SDK (krzyzanowskim)",
+    "url": "https://github.com/krzyzanowskim/TypeSafe",
+    "description": "TypeSafe SDK in Swift.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "openjev (zhihz)",
+    "url": "https://github.com/zhihz/openjev",
+    "description": "Local bilingual probability decisions from context, questions, and candidate answers, an independent research preview.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "OpenJev-Vision",
+    "url": "https://github.com/IamBusy/OpenJev-Vision",
+    "description": "Open visual probability research that encodes an image once and answers multiple structured questions, with public data, weights, and baselines.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "jev (dannote)",
+    "url": "https://github.com/dannote/jev",
+    "description": "Elixir/OTP client where a GenServer replies with Jev's answer so callers can pattern match on it.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-spring-boot-starter",
+    "url": "https://github.com/danvega/jev-spring-boot-starter",
+    "description": "Spring Boot 4 starter for Jev using Spring MVC and RestClient.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "system-one-open",
+    "url": "https://github.com/mithalouni/system-one-open",
+    "description": "Open replica of Jev giving typed calibrated decisions in one forward pass on Gemma 4 E2B and Gemma 3 270M via Modal.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "SmartMoney-Cub",
+    "url": "https://github.com/myc0576/SmartMoney-Cub",
+    "description": "Read-only trading journal and review harness with Jev typed judgments, agent integration, and a reproducible finance benchmark.",
+    "category": "Finance & Trading",
+    "tags": [
+      "finance",
+      "evaluation"
+    ]
+  },
+  {
+    "name": "Jev_apps",
+    "url": "https://github.com/JackZeng/Jev_apps",
+    "description": "Bilingual explainer of popular Jev apps, how they work, and their trade-offs.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": []
+  },
+  {
+    "name": "KaLM-Jev",
+    "url": "https://github.com/KaLM-Embedding/KaLM-Jev",
+    "description": "Local Jev-style judgment engine available in Nano, Small, and Large sizes.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "RoboJEV",
+    "url": "https://github.com/lykycy123/RoboJEV",
+    "description": "Two-stage Jev control of a Franka Panda arm in MuJoCo.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "name": "jev-capability-atlas",
+    "url": "https://github.com/Zaious/jev-capability-atlas",
+    "description": "Evidence-based bilingual map of where Jev holds up and where it breaks down, backed by real API-call receipts.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation",
+      "research"
+    ]
+  },
+  {
+    "name": "Canny",
+    "url": "https://github.com/qkal/Canny",
+    "description": "Stops coding agents from claiming work is done without evidence: deterministic hooks decide, Jev advises, with an append-only ledger and zero runtime dependencies.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev-on-a-laptop",
+    "url": "https://github.com/rorshopping/jev-on-a-laptop",
+    "description": "Unofficial study of Jev-style parallel typed decisions on stock 1.5B-8B models on an Apple Silicon laptop, with benchmarks and a demo Space.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "research",
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "open-jev (JoshuaSP)",
+    "url": "https://github.com/JoshuaSP/open-jev",
+    "description": "Typed JSON inference with DiffusionGemma, with Every and Jev benchmark results.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-explained",
+    "url": "https://github.com/davila7/jev-explained",
+    "description": "Plain-language explainer of what Jev is and how to use it.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": []
+  },
+  {
+    "name": "jevify (fidecastro)",
+    "url": "https://github.com/fidecastro/jevify",
+    "description": "Simple way to serve LLMs as a Jev-like endpoint.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "OpenSourceJev",
+    "url": "https://github.com/sabeel111/OpenSourceJev",
+    "description": "Turns an LLM into a Jev-like system.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "pi-jev-skill-picker",
+    "url": "https://github.com/safzanpirani/pi-jev-skill-picker",
+    "description": "Ranks Pi agent skills for the current task with Jev.",
+    "category": "Coding Agents",
+    "tags": [
+      "skills",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jevify (altryne)",
+    "url": "https://github.com/altryne/jevify",
+    "description": "Agent skill to discover Jev opportunities, design typed questions, and learn from recent community experiments.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "name": "yoshi",
+    "url": "https://github.com/compozy/yoshi",
+    "description": "Context-pruning proxy for Claude Code and Codex where Jev judges which history is still needed, with measurements.",
+    "category": "Context & Memory",
+    "tags": [
+      "context-management",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "ulka",
+    "url": "https://github.com/razaanstha/ulka",
+    "description": "Experimental browser agent powered by FX, Jev, and Vercel AI Gateway with bring-your-own API key.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "semdecide",
+    "url": "https://github.com/sharziki/semdecide",
+    "description": "Typed semantic decisions for Unix pipelines and CI.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "verification"
+    ]
+  },
+  {
+    "name": "Jev-Trades",
+    "url": "https://github.com/zadescoxp/Jev-Trades",
+    "description": "Trading bot built on Jev.",
+    "category": "Finance & Trading",
+    "tags": [
+      "finance"
+    ]
+  },
+  {
+    "name": "jev_local (Argos1111)",
+    "url": "https://github.com/Argos1111/jev_local",
+    "description": "Replicates Jev with a local LLM.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-column-race",
+    "url": "https://github.com/goodrahstar/jev-column-race",
+    "description": "Labels 1,000 app reviews with Jev versus Gemini 3.8 Flash, reporting 4.1x faster and 7x cheaper.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation"
+    ]
+  },
+  {
+    "name": "pi-jev-auto-mode",
+    "url": "https://github.com/jomatsu/pi-jev-auto-mode",
+    "description": "Jev-backed auto mode for the Pi coding agent that semantically auto-approves bash, write, and edit calls and fails closed when undecidable.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "guardrails",
+      "agent-safety"
+    ]
+  },
+  {
+    "name": "tsai-sc",
+    "url": "https://github.com/phyous/tsai-sc",
+    "description": "Controls original StarCraft shareware through keyboard and mouse with recorded action probabilities per decision.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "typesafe-snake",
+    "url": "https://github.com/sorrycc/typesafe-snake",
+    "description": "Snake auto-played by Jev with one choice per tick and legal moves generated in code.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "PlayJev",
+    "url": "https://github.com/OmniJev/PlayJev",
+    "description": "Open 0.8B Jev-like multimodal model that plays GUI games directly from raw pixels.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game",
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-mac-voice",
+    "url": "https://github.com/brudarko/jev-mac-voice",
+    "description": "Full-duplex English voice control for macOS with OpenAI Realtime, native Accessibility, and Jev.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "voice",
+      "computer-use"
+    ]
+  },
+  {
+    "name": "jev-code (rhighs)",
+    "url": "https://github.com/rhighs/jev-code",
+    "description": "Interactive TypeScript coding CLI powered by Jev typed decisions and constrained AST generation.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev-linkmap",
+    "url": "https://github.com/stas4000/jev-linkmap",
+    "description": "Rebuilds a site's internal link map in seconds with Jev, races Claude Opus 5 on the same queue, and rewrites the rubric from disagreements.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "scoring"
+    ]
+  },
+  {
+    "name": "Cheshi",
+    "url": "https://github.com/CheshiAI/Cheshi",
+    "description": "macOS workspace for Codex with Jev-powered conversation memory to find past sessions and revisit decisions with sources.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "memory",
+      "productivity",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev-macos-loop",
+    "url": "https://github.com/jcpsimmons/jev-macos-loop",
+    "description": "Open-source macOS computer use on Apple Silicon combining Jev, OmniParser CoreML, and Apple Vision OCR.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "computer-use"
+    ]
+  },
+  {
+    "name": "jev-guard",
+    "url": "https://github.com/leepokai/jev-guard",
+    "description": "Auto mode for every coding agent that risk-scores each tool call with session context, flags prompt injection in results, and checks skills and plugins.",
+    "category": "Coding Agents",
+    "tags": [
+      "guardrails",
+      "agent-safety",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jot",
+    "url": "https://github.com/runta-dev/jot",
+    "description": "General-purpose System One agent built on Jev.",
+    "category": "Agent Frameworks & Harnesses",
+    "tags": []
+  },
+  {
+    "name": "Jev-as-Policy",
+    "url": "https://github.com/YuanKJing/Jev-as-Policy",
+    "description": "One-click simulation setup for using Jev as a robot policy, with Astra plus Jev evaluations on benchmarks like RoboTwin planned.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "robotics",
+      "research"
+    ]
+  },
+  {
+    "name": "duckdb-jev",
+    "url": "https://github.com/colliber/duckdb-jev",
+    "description": "DuckDB extension returning typed Jev answers as real SQL types.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "sql"
+    ]
+  },
+  {
+    "name": "jev-axi",
+    "url": "https://github.com/shiftynick/jev-axi",
+    "description": "Agent-ergonomic CLI for Jev giving fast calibrated pick, rate, check, rank, triage, and guard judgments from the shell.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev-belay",
+    "url": "https://github.com/valentynkit/jev-belay",
+    "description": "Claude Code Stop hook that blocks an unverified done by reading the transcript for evidence and asking Jev once, failing open otherwise.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "zero-api-key-web-search",
+    "url": "https://github.com/wd041216-bit/zero-api-key-web-search",
+    "description": "Jev-powered search infrastructure for agents with no API keys, MCP support, and local neural evidence verification.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "rag",
+      "mcp"
+    ]
+  },
+  {
+    "name": "a3m-router",
+    "url": "https://github.com/Das-rebel/a3m-router",
+    "description": "Adaptive multi-model LLM router across 80+ providers with Jev single-pass routing, failover, and parallel ensemble merge.",
+    "category": "Classification & Routing",
+    "tags": [
+      "routing"
+    ]
+  },
+  {
+    "name": "ErisLint",
+    "url": "https://github.com/Eriskii/ErisLint",
+    "description": "Rust linter powered by configurable Jev rules, with a VS Code extension.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification"
+    ]
+  },
+  {
+    "name": "jev-cli (Nasrallah-AL)",
+    "url": "https://github.com/Nasrallah-AL/jev-cli",
+    "description": "Command-line tool for the Jev API.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-mcp (blakestone-x)",
+    "url": "https://github.com/blakestone-x/jev-mcp",
+    "description": "MCP server that exposes Jev classify, score, check, match, and screen operations as tools for any MCP-compatible agent.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "mcp"
+    ]
+  },
+  {
+    "name": "jgrep (keltokhy)",
+    "url": "https://github.com/keltokhy/jgrep",
+    "description": "Grep where the pattern is a description, filtering lines by meaning with Jev at about 200 ms and a thousandth of a cent per line.",
+    "category": "Search, Data & Retrieval",
+    "tags": []
+  },
+  {
+    "name": "transcript-lens",
+    "url": "https://github.com/sensahin/transcript-lens",
+    "description": "Explores YouTube transcripts by meaning with a Turkish interface, Jev analysis, and subtitle export.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "jev-benchmarks",
+    "url": "https://github.com/AbdelStark/jev-benchmarks",
+    "description": "Probability-aware evaluation for typed decision models covering calibration, selective risk, latency, and reproducible benchmarks.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation",
+      "research"
+    ]
+  },
+  {
+    "name": "jevwire",
+    "url": "https://github.com/Brainwires/jevwire",
+    "description": "Jev decision layer for agents as an MCP server, embeddable DecisionModel library, and escalate-only Claude Code plugin.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "mcp",
+      "plugin"
+    ]
+  },
+  {
+    "name": "jevalyn",
+    "url": "https://github.com/Ray-Hughes/jevalyn",
+    "description": "Rails-native wrapper around the Jev API for typed, calibrated decisions in your control flow.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "invalidate",
+    "url": "https://github.com/chopratejas/invalidate",
+    "description": "Invalidation layer for AI memory where every fact gets a lease that new evidence ends, built on Jev.",
+    "category": "Context & Memory",
+    "tags": [
+      "memory"
+    ]
+  },
+  {
+    "name": "jev-for-chrome",
+    "url": "https://github.com/chy4pro/jev-for-chrome",
+    "description": "Community Chrome-extension port of Jev Ultrafast that drives the tab you are looking at with Jev.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "x-scanner",
+    "url": "https://github.com/oso95/x-scanner",
+    "description": "Chrome extension that labels every post you scroll past on X with typed Jev judgments and a live cost counter.",
+    "category": "Content Moderation & Feeds",
+    "tags": [
+      "moderation"
+    ]
+  },
+  {
+    "name": "jevocks",
+    "url": "https://github.com/unicodeveloper/jevocks",
+    "description": "Everyday stock status checks with Jev.",
+    "category": "Finance & Trading",
+    "tags": [
+      "finance"
+    ]
+  },
+  {
+    "name": "arbiter",
+    "url": "https://github.com/0xBakeer/arbiter",
+    "description": "Serves typed-decision models such as Laya or your own on NVIDIA GPUs or Apple Silicon with a Jev-compatible API and coding-agent integrations.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jcr",
+    "url": "https://github.com/NiazMorshed2007/jcr",
+    "description": "Jev-powered resolver for agent harnesses that finds deterministic commands and their context in a nested capability tree.",
+    "category": "Agent Frameworks & Harnesses",
+    "tags": [
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "dohnuts",
+    "url": "https://github.com/PsiACE/dohnuts",
+    "description": "Builds small multimodal models for direct decisions in the System One style.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "jev-gmail-ai-spam-filter-and-labeling",
+    "url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling",
+    "description": "Self-hosted Gmail classifier that creates custom labels and filters spam with Jev, with confidence and cost controls.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "email",
+      "moderation"
+    ]
+  },
+  {
+    "name": "jgrep (kyu1204)",
+    "url": "https://github.com/kyu1204/jgrep",
+    "description": "Semantic code search for what code does rather than what it is called.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "ST-jeved",
+    "url": "https://github.com/mossyfield/ST-jeved",
+    "description": "SillyTavern extension that measures each reply with Jev and instructs the narrator only when a rule matches.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "jevbetter",
+    "url": "https://github.com/olanotolu/jevbetter",
+    "description": "Stronger one-pass scorer over a variable list of text options with a hashed n-gram encoder, rival-aware attention, and gated head.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "pi-jev-router",
+    "url": "https://github.com/philippdubach/pi-jev-router",
+    "description": "Minimal Pareto-optimal OpenRouter model router for Pi based on Jev.",
+    "category": "Coding Agents",
+    "tags": [
+      "routing",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jeval (rlaope)",
+    "url": "https://github.com/rlaope/jeval",
+    "description": "Measures what a Jev classifier's confidence is worth and sets the human hand-off line from the cost of a mistake.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation"
+    ]
+  },
+  {
+    "name": "jev-use",
+    "url": "https://github.com/shitianfang/jev-use",
+    "description": "Claude Code, Codex, and Pi plugin that hands agent steps needing no text output to Jev, with typed escalation back to the LLM.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "plugin"
+    ]
+  },
+  {
+    "name": "jev-superpowers",
+    "url": "https://github.com/AkashPriyadarshii/jev-superpowers",
+    "description": "Systematic development framework for coding agents upgraded with Jev typed decisions.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "skills"
+    ]
+  },
+  {
+    "name": "jev (BorisLeMeec)",
+    "url": "https://github.com/BorisLeMeec/jev",
+    "description": "Claude Code plugin for Jev.",
+    "category": "Coding Agents",
+    "tags": [
+      "plugin",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jevvy",
+    "url": "https://github.com/PanAchy/jevvy",
+    "description": "Jev-powered plugins for coding agents.",
+    "category": "Coding Agents",
+    "tags": [
+      "plugin",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "hunch (carldaws)",
+    "url": "https://github.com/carldaws/hunch",
+    "description": "Probabilistic control flow for Ruby and Rails powered by Jev.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "OneVOneJev",
+    "url": "https://github.com/emrickgarrett/OneVOneJev",
+    "description": "1v1 quickscope arena in Three.js where Jev controls the opponent.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "jev-rag-benchmark",
+    "url": "https://github.com/erendikmenn/jev-rag-benchmark",
+    "description": "Reproducible benchmark for Jev reranking quality, latency, and cost in RAG.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation",
+      "rag"
+    ]
+  },
+  {
+    "name": "jev-ego",
+    "url": "https://github.com/romaluev/jev-ego",
+    "description": "Fast browser agent for ego lite with one TypeSafe request per step.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "jev-curate",
+    "url": "https://github.com/AkashPriyadarshii/jev-curate",
+    "description": "High-throughput dataset sifter that streams, filters, and scores Parquet and JSONL rows with Jev typed decisions at 1,500+ rows per second.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "classification"
+    ]
+  },
+  {
+    "name": "feelings",
+    "url": "https://github.com/BoundaryML/feelings",
+    "description": "Adds a typed .feels() method to anything, the AI if-statement built on Jev and BAML.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-agent-skill-router",
+    "url": "https://github.com/GodsBoy/jev-agent-skill-router",
+    "description": "Typed, confidence-aware agent skill routing with Jev.",
+    "category": "Coding Agents",
+    "tags": [
+      "routing",
+      "skills"
+    ]
+  },
+  {
+    "name": "open-spark-jev",
+    "url": "https://github.com/abhishek085/open-spark-jev",
+    "description": "Open-source local decision models inspired by Jev, built on Qwen3 for NVIDIA DGX Spark.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "GlyphWeave",
+    "url": "https://github.com/HsiangNianian/GlyphWeave",
+    "description": "Infinite-canvas ASCII roguelike tilemap editor with multi-layer editing, preset rooms, and real-time map generation via Jev or DeepSeek.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "jev_jsonschema",
+    "url": "https://github.com/Kiln-AI/jev_jsonschema",
+    "description": "Runs a JSON Schema through the Jev API and gets JSON back.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "PlayJev (MoeclubM)",
+    "url": "https://github.com/MoeclubM/PlayJev",
+    "description": "Improved Jev playground.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": []
+  },
+  {
+    "name": "jev-memory (NicolasMontone)",
+    "url": "https://github.com/NicolasMontone/jev-memory",
+    "description": "Jev-backed long-term memory layer with write, retrieve, and evict for the Vercel AI SDK.",
+    "category": "Context & Memory",
+    "tags": [
+      "memory",
+      "sdk"
+    ]
+  },
+  {
+    "name": "JevPokerBench",
+    "url": "https://github.com/Prophetlab/JevPokerBench",
+    "description": "Texas Hold'em benchmark and playground for decision models with cash and SNG leaderboards, live replays, and bring-your-own-agent tables.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation",
+      "game"
+    ]
+  },
+  {
+    "name": "jevscape",
+    "url": "https://github.com/Skyvern-AI/jevscape",
+    "description": "RuneBench harness for Jev with a bounded action catalog, tick-mode controller, and live dashboard.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "jev-mcp (arunav25)",
+    "url": "https://github.com/arunav25/jev-mcp",
+    "description": "Connects Jev to MCP clients and compares its judgments against general-purpose LLMs on shared datasets.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "mcp",
+      "evaluation"
+    ]
+  },
+  {
+    "name": "nanojev-arena",
+    "url": "https://github.com/caijinchun/nanojev-arena",
+    "description": "Snake arena with 1v4 human-versus-AI battles and a 100-agent swarm simulator running the open NanoJev replica locally.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game",
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-reranking (carlaiau)",
+    "url": "https://github.com/carlaiau/jev-reranking",
+    "description": "Search-engine experiments on TREC collections focused on zero-shot reranking with Jev.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation",
+      "rag"
+    ]
+  },
+  {
+    "name": "ChatJev",
+    "url": "https://github.com/erik-dunteman/ChatJev",
+    "description": "Turns the Jev classifier into an autoregressive next-token predictor.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "Clean Code Judge",
+    "url": "https://github.com/frostney/clean-code-review",
+    "description": "Judges every file in a pull request against Clean Code smells with Jev, then has Luna write the review, built on eve and Next.js.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification",
+      "scoring",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev-sentinel",
+    "url": "https://github.com/harshwasan/jev-sentinel",
+    "description": "Pi extension where Jev checks tool calls, outputs, and replies for prompt injection, approvals, secret scrubbing, and task pinning.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "guardrails",
+      "agent-safety"
+    ]
+  },
+  {
+    "name": "jev-dsl",
+    "url": "https://github.com/inanna-malick/jev-dsl",
+    "description": "Agent-first Haskell DSL for Jev with typed packets, inferred types, and answers under the same labels.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jekhov",
+    "url": "https://github.com/jekhov/jekhov",
+    "description": "Policy-bounded Jev target selection for resilient Playwright workflows.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "jevcache (kushals256)",
+    "url": "https://github.com/kushals256/jevcache",
+    "description": "OpenAI-compatible local cache proxy that skips expensive LLM calls when Jev says the intent is the same.",
+    "category": "Integrations & Infrastructure",
+    "tags": []
+  },
+  {
+    "name": "semantic-live-caption",
+    "url": "https://github.com/limboinf/semantic-live-caption",
+    "description": "Real-time speech captions with live semantic annotation of key points, emotion, and intent using Confucius, Jev, and DeepSeek.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "voice"
+    ]
+  },
+  {
+    "name": "jev-doom-agent",
+    "url": "https://github.com/lukaske/jev-doom-agent",
+    "description": "Browser-native Doom agent with structured spatial state, composable AI controls, live decision telemetry, and a Chocolate Doom WebAssembly runtime.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "jev-auto-approve",
+    "url": "https://github.com/metalbear-co/jev-auto-approve",
+    "description": "Jev-driven pull request auto-approver.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev (okooo5km)",
+    "url": "https://github.com/okooo5km/jev",
+    "description": "Unofficial stdlib-only Python CLI and agent skill for Jev with yes/no, choice, and ordinal scores, semantic grep, and batch mode.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk",
+      "skills"
+    ]
+  },
+  {
+    "name": "jev-router (prismhq)",
+    "url": "https://github.com/prismhq/jev-router",
+    "description": "Open-source LLM router on top of LiteLLM where Jev picks the model for each request.",
+    "category": "Classification & Routing",
+    "tags": [
+      "routing"
+    ]
+  },
+  {
+    "name": "jev-chat-JARVIS-windows",
+    "url": "https://github.com/rezoch340/jev-chat-JARVIS-windows",
+    "description": "Windows WeChat reply assistant that OCRs the other side's messages from a screenshot, has Jev judge intent, and offers three candidate replies to fill in, with sending always manual.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "name": "jevals (theyashwanthsai)",
+    "url": "https://github.com/theyashwanthsai/jevals",
+    "description": "Eval framework for LLMs and agents graded by a calibrated decision model, research preview.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation"
+    ]
+  },
+  {
+    "name": "Augustus",
+    "url": "https://github.com/24601/Augustus",
+    "description": "Agent skill for designing judgment-assisted systems that maps Choice, Score, and Noul onto decision theory, reranking, and routing with validation gates.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "name": "jevies",
+    "url": "https://github.com/Ezbaze/jevies",
+    "description": "Little Jevs that help design and review other Jevs.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": []
+  },
+  {
+    "name": "hearth-jev-rental-search",
+    "url": "https://github.com/Nancy-Chauhan/hearth-jev-rental-search",
+    "description": "Autonomous multi-source rental search powered by Jev.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "pi-heed",
+    "url": "https://github.com/Nyarlathoteppppp/pi-heed",
+    "description": "Runtime constraints for Pi that check every side-effecting tool call against what you asked before it runs.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "guardrails"
+    ]
+  },
+  {
+    "name": "jev-feels",
+    "url": "https://github.com/Qew7/jev-feels",
+    "description": "Semantic decisions as ordinary Ruby with feels?, decide, score, Rails validations, and pattern matching.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev_antispam_bot",
+    "url": "https://github.com/backmeupplz/jev_antispam_bot",
+    "description": "Minimal grammY Telegram anti-spam bot powered by Jev.",
+    "category": "Content Moderation & Feeds",
+    "tags": [
+      "moderation"
+    ]
+  },
+  {
+    "name": "jev.nu",
+    "url": "https://github.com/cablehead/jev.nu",
+    "description": "Nushell module for the System One API with typed decisions and calibrated probabilities.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-minesweeper",
+    "url": "https://github.com/comoc/jev-minesweeper",
+    "description": "Demo that has Jev solve Minesweeper in the browser.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "jev-compact",
+    "url": "https://github.com/fatelei/jev-compact",
+    "description": "Jev-scored context compaction for the Codex CLI that scores every tool call before compaction and restores critical outputs verbatim after.",
+    "category": "Context & Memory",
+    "tags": [
+      "context-management",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev-agent-browser",
+    "url": "https://github.com/forvela/jev-agent-browser",
+    "description": "Fast, bounded browser agents built on Jev and agent-browser with typed actions, research, classification, and safe orchestration.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "jev-demo (gopinav)",
+    "url": "https://github.com/gopinav/jev-demo",
+    "description": "Jev plus TypeScript SDK demo.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": []
+  },
+  {
+    "name": "aside-jev",
+    "url": "https://github.com/himomohi/aside-jev",
+    "description": "Aside browser-runtime agents that decide with Jev Choice, Score, and Noul questions.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "pi-jev (iefnaf)",
+    "url": "https://github.com/iefnaf/pi-jev",
+    "description": "Pi extension suite with selective context compaction and model routing powered by Jev.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "context-management",
+      "routing"
+    ]
+  },
+  {
+    "name": "jev-tool-router",
+    "url": "https://github.com/jackbarunz/jev-tool-router",
+    "description": "Jev-powered MCP tool routing for Codex.",
+    "category": "Coding Agents",
+    "tags": [
+      "routing",
+      "mcp",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "reflex-gate",
+    "url": "https://github.com/jagsan-cyber/reflex-gate",
+    "description": "Local, privacy-focused, fully offline alternative to Jev.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-architect",
+    "url": "https://github.com/karanb192/jev-architect",
+    "description": "Finds, designs, and evaluates Jev decision loops.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "name": "jev-search (larguesa)",
+    "url": "https://github.com/larguesa/jev-search",
+    "description": "Experimental semantic line search with Jev via OpenRouter as a dependency-free Python CLI.",
+    "category": "Search, Data & Retrieval",
+    "tags": []
+  },
+  {
+    "name": "slop-grader",
+    "url": "https://github.com/lukstei/slop-grader",
+    "description": "Rule-based grader for text files that runs every rule against every line in parallel with Jev.",
+    "category": "Scoring & Ranking",
+    "tags": [
+      "scoring"
+    ]
+  },
+  {
+    "name": "jev-korean-benchmark",
+    "url": "https://github.com/mahlernim/jev-korean-benchmark",
+    "description": "Reproducible early-access evaluation of Jev on Korean understanding and medical text with runtime and cost evidence.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation"
+    ]
+  },
+  {
+    "name": "nl-logic-interpreter",
+    "url": "https://github.com/narphorium/nl-logic-interpreter",
+    "description": "Step-through logic interpreter for natural-language facts and rules unified with Jev.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "jev-clerk",
+    "url": "https://github.com/stas4000/jev-clerk",
+    "description": "Desktop bookkeeping clerk where Jev decides every step and Fable 5.1 rewrites its playbook every ten invoices.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "name": "hermes-and-jev-play-minecraft",
+    "url": "https://github.com/teknium1/hermes-and-jev-play-minecraft",
+    "description": "Hermes Agent plans, Jev picks bounded actions, and Mineflayer executes Minecraft with no screenshots or keypresses from a model.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "scala-jev-sdk",
+    "url": "https://github.com/ticofab/scala-jev-sdk",
+    "description": "Scala SDK for Jev with no effect system bundled.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-browser (tontoko)",
+    "url": "https://github.com/tontoko/jev-browser",
+    "description": "Grounded Jev and Playwright core with a typed SDK, persistent CLI, and MCP server offering native browser operations and deterministic assertions.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation",
+      "mcp",
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-search-rerank-eval",
+    "url": "https://github.com/zhuyansen/jev-search-rerank-eval",
+    "description": "Graded relevance eval of Jev reranking versus embedding search over 9,831 pairs and 164 queries, with judge-circularity bias measured.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation",
+      "rag"
+    ]
+  },
+  {
+    "name": "a0-typesafe-ai",
+    "url": "https://github.com/3clyp50/a0-typesafe-ai",
+    "description": "Jev judgments for Agent Zero with typed tools and probability cards.",
+    "category": "Agent Frameworks & Harnesses",
+    "tags": []
+  },
+  {
+    "name": "jev-fraud",
+    "url": "https://github.com/Nutlope/jev-fraud",
+    "description": "Hard classification using Jev together with Kimi K3.",
+    "category": "Classification & Routing",
+    "tags": [
+      "classification"
+    ]
+  },
+  {
+    "name": "pi-jev-context",
+    "url": "https://github.com/Nyarlathoteppppp/pi-jev-context",
+    "description": "Pi extension with freshness-aware read dedupe, Jev log filtering, and searchable verbatim recall that keeps message history intact.",
+    "category": "Context & Memory",
+    "tags": [
+      "context-management",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "pi-jev-guard (Reindeer-AI)",
+    "url": "https://github.com/Reindeer-AI/pi-jev-guard",
+    "description": "Checks Pi code edits against repository Markdown rules with Jev.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "verification"
+    ]
+  },
+  {
+    "name": "piper-astra-jev",
+    "url": "https://github.com/RobotKitAI/piper-astra-jev",
+    "description": "LLM-driven demo runs on a real AgileX PiPER arm using Astra, Jev with DINO, and Jev with SAM3.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "name": "pi-jev-context-curator",
+    "url": "https://github.com/Shashank-H/pi-jev-context-curator",
+    "description": "Jev-based context curator for Pi.",
+    "category": "Context & Memory",
+    "tags": [
+      "context-management",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "typed_evals",
+    "url": "https://github.com/TrustifAI/typed_evals",
+    "description": "Fast, typed, calibrated evaluations for LLM and agent outputs with framework-agnostic Python APIs.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation"
+    ]
+  },
+  {
+    "name": "jev-rerank-bench",
+    "url": "https://github.com/anessbelbati/jev-rerank-bench",
+    "description": "Compares Jev against Cohere Rerank 4, ZeroEntropy zerank-2, and a chat-model baseline across 14 datasets with every raw response and bootstrap ranges.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation",
+      "rag"
+    ]
+  },
+  {
+    "name": "claude-jev",
+    "url": "https://github.com/buchmark/claude-jev",
+    "description": "Claude Code plugin that scores review findings, debug hypotheses, and design options with Jev for calibrated probabilities instead of another opinion.",
+    "category": "Coding Agents",
+    "tags": [
+      "plugin",
+      "coding-agents",
+      "scoring"
+    ]
+  },
+  {
+    "name": "book-aurora",
+    "url": "https://github.com/dani1005/book-aurora",
+    "description": "Reads a whole novel in seconds with Jev and turns every passage into a row of colour.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "daf-jev",
+    "url": "https://github.com/docxology/daf-jev",
+    "description": "Composable Python toolkit for the Jev API with question builders, confidence gates, an evaluator, calibration, CLI, MCP server, and agent skill.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk",
+      "mcp"
+    ]
+  },
+  {
+    "name": "jev-grand-prix",
+    "url": "https://github.com/enoyola/jev-grand-prix",
+    "description": "F1 racing game where Jev picks the racing line and pedals and learns each corner's limit between laps.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "playjev (filedcom)",
+    "url": "https://github.com/filedcom/playjev",
+    "description": "Fast, typed browser automation powered by Jev and Playwright.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "JevML",
+    "url": "https://github.com/gamesonrblx/JevML",
+    "description": "Reusable machine-learning primitives for Jev, including PCA, MCMC, text diffusion, neural cellular automata, and a task harness that picks the right tool.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "jev-yt-time-saver",
+    "url": "https://github.com/jaibhasin/jev-yt-time-saver",
+    "description": "Chrome extension that covers distracting YouTube videos with Jev, with a show-anyway override.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity",
+      "moderation"
+    ]
+  },
+  {
+    "name": "jev-lab (jammaru)",
+    "url": "https://github.com/jammaru/jev-lab",
+    "description": "Tiny town where 100 AI NPCs live, Jev chooses each next action, and the world writes the story.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "open-jev (kyegomez)",
+    "url": "https://github.com/kyegomez/open-jev",
+    "description": "From-first-principles PyTorch reconstruction of the ideas behind Jev.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "jev-little-airways",
+    "url": "https://github.com/lbotinelly/jev-little-airways",
+    "description": "Show-and-tell capability study for Jev.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": []
+  },
+  {
+    "name": "jevsubrouter",
+    "url": "https://github.com/leftspace89/jevsubrouter",
+    "description": "Routes each Claude Code sub-agent dispatch to the cheapest model that can finish its brief without switching the main conversation's model.",
+    "category": "Classification & Routing",
+    "tags": [
+      "routing",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "mcts-agent",
+    "url": "https://github.com/lhemerly/mcts-agent",
+    "description": "Discriminative Monte Carlo Tree Search using Jev primitives and Gemini.",
+    "category": "Agent Frameworks & Harnesses",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "Jev-Mem",
+    "url": "https://github.com/libingzheren/Jev-Mem",
+    "description": "System One-controlled agentic memory.",
+    "category": "Context & Memory",
+    "tags": [
+      "memory"
+    ]
+  },
+  {
+    "name": "jev-weekend-shopping-chrome",
+    "url": "https://github.com/littlewindy123/jev-weekend-shopping-chrome",
+    "description": "Chrome extension for Taobao and JD that has Jev guess a seller's work schedule in real time and stamps PASS on products likely made without weekend rest.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "name": "typesafe_sdk (nshkrdotcom)",
+    "url": "https://github.com/nshkrdotcom/typesafe_sdk",
+    "description": "Idiomatic Elixir port of the TypeScript AI SDK with Jev as a supported model.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev_vampire_survivors",
+    "url": "https://github.com/oldmoldycake/jev_vampire_survivors",
+    "description": "Jev plays Vampire Survivors on Steam via a BepInEx plugin, Python brain, and live decision dashboard.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "ai-elo-ranker",
+    "url": "https://github.com/opaielsheikh/ai-elo-ranker",
+    "description": "High-speed recursive AI Elo tournament engine powered by Jev and Swiss matchmaking.",
+    "category": "Scoring & Ranking",
+    "tags": [
+      "scoring"
+    ]
+  },
+  {
+    "name": "jev-mcp (rashedInt32)",
+    "url": "https://github.com/rashedInt32/jev-mcp",
+    "description": "MCP server exposing Jev as classify, score, check, and batched ask tools, shipped as a Claude Code plugin.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "mcp",
+      "plugin"
+    ]
+  },
+  {
+    "name": "every",
+    "url": "https://github.com/sufianetaouil/every",
+    "description": "Asks a yes/no question of every function in a codebase and returns ranked answers in seconds, grep whose pattern is a question.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev-block-android-ad",
+    "url": "https://github.com/ufec/jev-block-android-ad",
+    "description": "Android notification and SMS noise filter where a decision model flags noise and verification codes are matched on-device and never uploaded.",
+    "category": "Content Moderation & Feeds",
+    "tags": [
+      "moderation",
+      "mobile"
+    ]
+  },
+  {
+    "name": "jev-benchmark (wondertwins)",
+    "url": "https://github.com/wondertwins/jev-benchmark",
+    "description": "Benchmarks and a playground for Jev covering chess and who-is-the-player-talking-to for speech-to-text game NPCs.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation",
+      "game"
+    ]
+  },
+  {
+    "name": "OpenJev (xingwudao)",
+    "url": "https://github.com/xingwudao/OpenJev",
+    "description": "Independent Jev-inspired decision API with choice, score, and noul primitives, a local mock server, and Python and TypeScript SDKs.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-lm",
+    "url": "https://github.com/y0usaf/jev-lm",
+    "description": "Word-level language model whose output layer is Jev, with an n-gram drafter, Noul chunk verification, and bits-per-token eval.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "edgejev",
+    "url": "https://github.com/yzfly/edgejev",
+    "description": "Local, offline System One inference on CPU with ONNX and INT8, about 15 ms per question on 4 cores, supporting Laya, kev, and PlayJev.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-semgrep",
+    "url": "https://github.com/uehaj/jev-semgrep",
+    "description": "Grep by meaning across languages where Jev scores every line against a description, combinable with AND, OR, and NOT, including cross-language Japanese and English search.",
+    "category": "Search, Data & Retrieval",
+    "tags": []
+  },
+  {
+    "name": "LLM2Jev",
+    "url": "https://github.com/Yinsongxu/LLM2Jev",
+    "description": "Adapts local language models into Jev-compatible decision engines with Choice, Score, and Noul outputs via prefill-only binary inference.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "stanley-code",
+    "url": "https://github.com/devagrawal09/stanley-code",
+    "description": "Bounded Jev workflows for coding agents.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "skillranker",
+    "url": "https://github.com/Dicklesworthstone/skillranker",
+    "description": "Rust CLI that ranks agent skills for the next step from live session context with Jev, with Claude Code hooks, abstention, and local feedback.",
+    "category": "Coding Agents",
+    "tags": [
+      "skills",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev-drone",
+    "url": "https://github.com/RomanSlack/jev-drone",
+    "description": "Camera-only autonomous drone in MuJoCo with Jev in the control loop at 2.5 Hz.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "name": "crush-monitor",
+    "url": "https://github.com/FerryCorleone/crush-monitor",
+    "description": "Local WeChat chat analyzer that uses Jev to read emotion, intent, and how your replies land, with your own API key.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "name": "dasheng",
+    "url": "https://github.com/wquguru/dasheng",
+    "description": "English read-aloud scoring that streams ASR through R2T2 and has Jev judge word by word.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "voice"
+    ]
+  },
+  {
+    "name": "agentic-rl",
+    "url": "https://github.com/cookiespiggy/agentic-rl",
+    "description": "Twenty-five chapter Chinese Agentic RL tutorial with runnable TRL examples and a chapter on where Jev-style discriminative models end and RL begins.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": []
+  },
+  {
+    "name": "reflex",
+    "url": "https://github.com/kshetrajna12/reflex",
+    "description": "Small open decision model on Qwen3.5 that maps state plus typed questions to calibrated probabilities.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "formanator",
+    "url": "https://github.com/timrogers/formanator",
+    "description": "Submits Forma benefit claims from the command line and MCP clients, with optional receipt analysis by an LLM or Jev.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "mcp",
+      "productivity"
+    ]
+  },
+  {
+    "name": "jev-shell-history",
+    "url": "https://github.com/mrnugget/jev-shell-history",
+    "description": "Fish-style zsh history autosuggestions ranked by Jev.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "name": "jev-gateway",
+    "url": "https://github.com/vinilana/jev-gateway",
+    "description": "Easy way to use Jev with a coding agent for tool-calling decisions.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "advocaat",
+    "url": "https://github.com/pithings/advocaat",
+    "description": "Small type-safe client for asking Jev questions about your data.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "open-jev (daseinlabs)",
+    "url": "https://github.com/daseinlabs/open-jev",
+    "description": "Open Jev implementation with custom fine-tuning.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "fastbrowse",
+    "url": "https://github.com/agent-labs-dev/fastbrowse",
+    "description": "Fast browser agent where Jev picks each action from the page, an LLM reads and plans, and every claim in an answer cites a quote from the page.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation"
+    ]
+  },
+  {
+    "name": "jev-trade",
+    "url": "https://github.com/aowang-ai/jev-trade",
+    "description": "Asks Jev for a long/short choice on a Hyperliquid market each round and places the resulting order.",
+    "category": "Finance & Trading",
+    "tags": [
+      "finance"
+    ]
+  },
+  {
+    "name": "jev-use (savka777)",
+    "url": "https://github.com/savka777/jev-use",
+    "description": "Voice-driven macOS computer-use harness on Jev that reads the screen through Accessibility with no vision model.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "computer-use",
+      "voice"
+    ]
+  },
+  {
+    "name": "pg_typesafe",
+    "url": "https://github.com/giuliosmall/pg_typesafe",
+    "description": "Pre-alpha PostgreSQL extension for categorical classification with Jev.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "sql"
+    ]
+  },
+  {
+    "name": "youtube-sponsor-detection",
+    "url": "https://github.com/trungdq88/youtube-sponsor-detection",
+    "description": "Detects YouTube sponsor segments from live audio and transcript with Jev.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "jev-chat",
+    "url": "https://github.com/w3cj/jev-chat",
+    "description": "Tool-calling chat bot built with Jev and no LLM.",
+    "category": "Agent Frameworks & Harnesses",
+    "tags": []
+  },
+  {
+    "name": "jevmeter",
+    "url": "https://github.com/ChetasLua/jevmeter",
+    "description": "Puts a live Jev meter on any video, scoring every sentence and rendering a 16:9 edit.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "scoring"
+    ]
+  },
+  {
+    "name": "jegrep",
+    "url": "https://github.com/can1357/jegrep",
+    "description": "Semantic grep that finds code by describing what you are looking for.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "grok-bot-jev",
+    "url": "https://github.com/Bodila51/grok-bot-jev",
+    "description": "Connects Jev to Grok Bot as a cheap decision layer with usage gates, a skill template, and examples.",
+    "category": "Integrations & Infrastructure",
+    "tags": []
+  },
+  {
+    "name": "JevHarness",
+    "url": "https://github.com/TianyuCodings/JevHarness",
+    "description": "LLM-authored task-specific Jev harnesses with optional full-trajectory reward reflection and GEPA evolution.",
+    "category": "Agent Frameworks & Harnesses",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "neo4jev",
+    "url": "https://github.com/jexp/neo4jev",
+    "description": "Navigates a Neo4j graph with Jev classifying over neighbouring relationships.",
+    "category": "Search, Data & Retrieval",
+    "tags": []
+  },
+  {
+    "name": "jevchat",
+    "url": "https://github.com/kyle-pena-nlp/jevchat",
+    "description": "Turns Jev into a chatbot.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "jev-browser (Ying-Kai-Liao)",
+    "url": "https://github.com/Ying-Kai-Liao/jev-browser",
+    "description": "Browser automation where an LLM plans and Jev decides, as a library, CLI, and MCP server.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation",
+      "mcp"
+    ]
+  },
+  {
+    "name": "jevcache (hyperspaceai)",
+    "url": "https://github.com/hyperspaceai/jevcache",
+    "description": "Decision cache for Jev-class models that memoizes decisions so repeats are free, deterministic, and shareable, in one 2 MB binary.",
+    "category": "Integrations & Infrastructure",
+    "tags": []
+  },
+  {
+    "name": "typesafe-adblock",
+    "url": "https://github.com/realZachi/typesafe-adblock",
+    "description": "Chrome extension that asks Jev whether each DOM element is an ad and pops it off the page, BYOK with no backend.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity",
+      "moderation"
+    ]
+  },
+  {
+    "name": "Verdict-open-jev",
+    "url": "https://github.com/Heman10x-NGU/Verdict-open-jev",
+    "description": "Non-autoregressive decision engine on ModernBERT with calibrated uncertainty, a Jev benchmark audit, and an in-browser WebGPU playground.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jev-arena (NanmiCoder)",
+    "url": "https://github.com/NanmiCoder/jev-arena",
+    "description": "Chinese-language introduction and hands-on test of Jev that compares it with DeepSeek on comment labeling, with CSV import, replay, and offline reports.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation"
+    ]
+  },
+  {
+    "name": "agent-router",
+    "url": "https://github.com/nidhi-singh02/agent-router",
+    "description": "CLI that picks Cursor, Claude Code, Codex, or OpenCode plus model and effort for a task, then launches it, powered by Jev and Herdr.",
+    "category": "Classification & Routing",
+    "tags": [
+      "routing",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev-lint",
+    "url": "https://github.com/mizchi/jev-lint",
+    "description": "Lints text in code with a Jev scorer.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification"
+    ]
+  },
+  {
+    "name": "jev-as-a-judge",
+    "url": "https://github.com/danielgshea/jev-as-a-judge",
+    "description": "Uses Jev as an evaluator.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation"
+    ]
+  },
+  {
+    "name": "jev-dsh-decision",
+    "url": "https://github.com/Devin-AXIS/jev-dsh-decision",
+    "description": "Structured decision plugin for agent harnesses with native DeepSeek Harness support and OpenCode and Codex support via iPolloWork.",
+    "category": "Coding Agents",
+    "tags": [
+      "plugin",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "killmyidea",
+    "url": "https://github.com/monteduro/killmyidea",
+    "description": "Describe your startup idea and Jev decides whether to kill it, fix it, or ship it.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "jev-desktop",
+    "url": "https://github.com/yikangy873-gif/jev-desktop",
+    "description": "Jev action selection inside Codex Computer Use.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "computer-use"
+    ]
+  },
+  {
+    "name": "jevmlx",
+    "url": "https://github.com/bnsd55/jevmlx",
+    "description": "Jev-style parallel constrained decisions for any MLX model on Apple Silicon, returning typed schema-valid JSON in one forward pass.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "hermes-jev",
+    "url": "https://github.com/keeltrace/hermes-jev",
+    "description": "Typed System One decisions, ranking, verification, and an opt-in tool gate for Hermes.",
+    "category": "Agent Frameworks & Harnesses",
+    "tags": [
+      "guardrails"
+    ]
+  },
+  {
+    "name": "jev-reflex-autonomy-lab",
+    "url": "https://github.com/khordoo/jev-reflex-autonomy-lab",
+    "description": "Multi-drone autonomy lab demonstrating Jev reflex decisions with optional System 2 strategy guidance.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "name": "jev_stock",
+    "url": "https://github.com/sosopop/jev_stock",
+    "description": "Experimental framework for forecasting short-term stock price direction from structured market data with Jev.",
+    "category": "Finance & Trading",
+    "tags": [
+      "finance"
+    ]
+  },
+  {
+    "name": "spring-ai-typesafe",
+    "url": "https://github.com/spring-ai-community/spring-ai-typesafe",
+    "description": "Java SDK for the Jev API with Spring AI integrations.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "live-jev (vinilana)",
+    "url": "https://github.com/vinilana/live-jev",
+    "description": "2D autonomous car simulation in the browser driven by Jev.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "hermes-jev-approvals",
+    "url": "https://github.com/anpicasso/hermes-jev-approvals",
+    "description": "Puts Jev in front of Hermes Agent command approvals, measured 8.7x faster with 4.4x fewer prompts on 153 real commands.",
+    "category": "Agent Frameworks & Harnesses",
+    "tags": [
+      "guardrails",
+      "agent-safety"
+    ]
+  },
+  {
+    "name": "hafiza-os",
+    "url": "https://github.com/fornhere/hafiza-os",
+    "description": "Sourced second brain for Linux, macOS, and Windows with Claude Code, Codex, and Antigravity adapters, a local Markdown vault, and optional Mem0 or Jev.",
+    "category": "Context & Memory",
+    "tags": [
+      "memory"
+    ]
+  },
+  {
+    "name": "JevLint",
+    "url": "https://github.com/huntedman/JevLint",
+    "description": "Configurable semantic linting with file-level Noul judgments and a magic-strings plugin.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification"
+    ]
+  },
+  {
+    "name": "typesafe-playground",
+    "url": "https://github.com/kavehmz/typesafe-playground",
+    "description": "Interactive Jev experiments from support routing to 3D driving simulations with visible sensor inputs.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": []
+  },
+  {
+    "name": "jevql",
+    "url": "https://github.com/kylemclaren/jevql",
+    "description": "Semantic SQL for PostgreSQL powered by Jev.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "sql"
+    ]
+  },
+  {
+    "name": "pi-jev (madeye)",
+    "url": "https://github.com/madeye/pi-jev",
+    "description": "Jev-assisted file retrieval and request caching for faster Pi workflows.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "context-management"
+    ]
+  },
+  {
+    "name": "jev-cookbook",
+    "url": "https://github.com/nexibeo/jev-cookbook",
+    "description": "Tested recipes for Jev on OpenRouter covering support triage, indexing, file organizing, tagging, dedupe, PII detection, extraction, reranking, and a browser agent.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": []
+  },
+  {
+    "name": "open-jev (nico-martin)",
+    "url": "https://github.com/nico-martin/open-jev",
+    "description": "Browser-focused TypeScript library for typed decisions where one forward pass returns a calibrated distribution per question and nothing is generated.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-mail-classifier",
+    "url": "https://github.com/parth-kp/jev-mail-classifier",
+    "description": "Config-driven inbox classifier that tags, moves, flags, and notifies with Jev.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "email",
+      "productivity"
+    ]
+  },
+  {
+    "name": "OpenJev (zhangcy122)",
+    "url": "https://github.com/zhangcy122/OpenJev",
+    "description": "Open-source alternative to Jev offering a typed Choice, Noul, and Score API on open LLMs with constrained logprob calibration.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "JevLoop",
+    "url": "https://github.com/zjunlp/JevLoop",
+    "description": "Agent loop where decisions do not cost an LLM call, with zero dependencies and offline operation.",
+    "category": "Agent Frameworks & Harnesses",
+    "tags": []
+  },
+  {
+    "name": "pi-quiet-ask",
+    "url": "https://github.com/HyunjunJeon/pi-quiet-ask",
+    "description": "Quiet Jev decision layer for the Pi coding agent.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "laya-vs-jev-arena",
+    "url": "https://github.com/PromptEngineer48/laya-vs-jev-arena",
+    "description": "Laya and Jev race in Snake and fight in a Mortal Kombat-style arena where every move is a real model decision.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game",
+      "evaluation",
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "jevcal",
+    "url": "https://github.com/abhixhek/jevcal",
+    "description": "Calibrates, thresholds, and drift-checks typed decision models against an LLM teacher so you stop guessing confidence cutoffs.",
+    "category": "Evaluation & Benchmarking",
+    "tags": [
+      "evaluation"
+    ]
+  },
+  {
+    "name": "jev-design-test",
+    "url": "https://github.com/bhaiG-de/jev-design-test",
+    "description": "Jev-driven shadcn block generator.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "dsh-jev",
+    "url": "https://github.com/buberlo/dsh-jev",
+    "description": "Jev-powered decision layer for DeepSeek Harness.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents",
+      "plugin"
+    ]
+  },
+  {
+    "name": "jevthoven",
+    "url": "https://github.com/cocktailpeanut/jevthoven",
+    "description": "AI MIDI music generator powered by Jev.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "jev-chat-for-twitch",
+    "url": "https://github.com/ethanplusai/jev-chat-for-twitch",
+    "description": "Bring-your-own-key Chrome extension that filters any live Twitch chat with Jev.",
+    "category": "Content Moderation & Feeds",
+    "tags": [
+      "moderation"
+    ]
+  },
+  {
+    "name": "jevfire",
+    "url": "https://github.com/kikoncuo/jevfire",
+    "description": "Jev-inspired parallel decisions for CUDA LLMs with a vLLM API, game-agent examples, and reproducible benchmarks.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "JEV-CPU",
+    "url": "https://github.com/leesk212/JEV-CPU",
+    "description": "Runs SemIf-style semantic-if decisions on CPU with no GPU, reading typed option probabilities from an open model in one pass, with a web UI.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "xtags",
+    "url": "https://github.com/manifoldor/xtags",
+    "description": "Labels every post on your X timeline with what it wants you to do, judged by Jev.",
+    "category": "Content Moderation & Feeds",
+    "tags": [
+      "moderation"
+    ]
+  },
+  {
+    "name": "pi-jev-router (mejiasd3v)",
+    "url": "https://github.com/mejiasd3v/pi-jev-router",
+    "description": "Automatic model routing for Pi using Jev through Vercel AI Gateway.",
+    "category": "Coding Agents",
+    "tags": [
+      "routing",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "twitter-jev-guard",
+    "url": "https://github.com/qs-lll/twitter-jev-guard",
+    "description": "Flags low-quality, spam, and ad posts on the X timeline with Jev and overlays a translucent watermark on them.",
+    "category": "Content Moderation & Feeds",
+    "tags": [
+      "moderation"
+    ]
+  },
+  {
+    "name": "jev-cli (shaharia-lab)",
+    "url": "https://github.com/shaharia-lab/jev-cli",
+    "description": "CLI that asks yes/no, multiple-choice, and rubric questions about any text and returns calibrated probabilities as exit codes, JSON, or MCP tools.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk",
+      "mcp"
+    ]
+  },
+  {
+    "name": "jev-tetris",
+    "url": "https://github.com/trungdq88/jev-tetris",
+    "description": "Jev plays Tetris in real time against other AI models.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "jev-forge",
+    "url": "https://github.com/zwliJay/jev-forge",
+    "description": "Open training and inference stack for Jev-style decision models that score dynamic candidate branches from a shared prefix.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative",
+      "research"
+    ]
+  },
+  {
+    "name": "jev-harness",
+    "url": "https://github.com/AntonioCoppe/jev-harness",
+    "description": "Decision harness for Jev with confidence gates, shadow mode, recipes, and evals, reporting 1.3 s versus 48.9 s for Claude CLI on the same row-filter job.",
+    "category": "Integrations & Infrastructure",
+    "tags": []
+  },
+  {
+    "name": "jev-askable-arm",
+    "url": "https://github.com/TarunTomar122/jev-askable-arm",
+    "description": "Zero-shot English goals on a simulated Franka arm where Jev chains hardcoded primitives.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "robotics"
+    ]
+  },
+  {
+    "name": "typesafe-sdk-go (atharvamhaske)",
+    "url": "https://github.com/atharvamhaske/typesafe-sdk-go",
+    "description": "Unofficial community Go SDK for the TypeSafe API.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "sift",
+    "url": "https://github.com/bohutang/sift",
+    "description": "Chrome extension that labels every post on X as substance, humor, chit-chat, promo, junk, or AI-written with Jev and hides the ones you do not want.",
+    "category": "Content Moderation & Feeds",
+    "tags": [
+      "moderation"
+    ]
+  },
+  {
+    "name": "evoke",
+    "url": "https://github.com/evoke-build/evoke",
+    "description": "Turns a sentence into a call of a small program chosen by Jev and run only when it is sure enough, with a CLI, a reflex package manager, and a TypeScript SDK.",
+    "category": "Agent Frameworks & Harnesses",
+    "tags": []
+  },
+  {
+    "name": "fable-jev",
+    "url": "https://github.com/imMamdouhaboammar/fable-jev",
+    "description": "Sub-100 ms cognitive reflexes for autonomous coding agents powered by Jev and get-fable.",
+    "category": "Coding Agents",
+    "tags": [
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "pi-fast-jev-compaction",
+    "url": "https://github.com/joelhooks/pi-fast-jev-compaction",
+    "description": "Pi extension for verbatim context compaction with Jev decisions.",
+    "category": "Context & Memory",
+    "tags": [
+      "context-management",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jsort",
+    "url": "https://github.com/keltokhy/jsort",
+    "description": "Sorts lines along a plain-English dimension from pairwise comparisons judged by Jev.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "scoring"
+    ]
+  },
+  {
+    "name": "findme",
+    "url": "https://github.com/marc2332/findme",
+    "description": "File finder that combines Jev with the filesystem.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "name": "flue-jev-demo",
+    "url": "https://github.com/matthewp/flue-jev-demo",
+    "description": "Flue agent routing with Jev through Cloudflare AI Gateway.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "routing"
+    ]
+  },
+  {
+    "name": "jevlogs",
+    "url": "https://github.com/reachjalil/jevlogs",
+    "description": "Open-source Jev log triage for OpenTelemetry that scores the signal before expensive LLM analysis.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "scoring"
+    ]
+  },
+  {
+    "name": "jevernetes",
+    "url": "https://github.com/sunil-sadasivan/jevernetes",
+    "description": "Live Kubernetes log analysis, contextual investigation, and agent handoff powered by Jev.",
+    "category": "Integrations & Infrastructure",
+    "tags": []
+  },
+  {
+    "name": "jev-cli (tumf)",
+    "url": "https://github.com/tumf/jev-cli",
+    "description": "Small dependency-free CLI for Jev.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-security-scan",
+    "url": "https://github.com/win4r/jev-security-scan",
+    "description": "Reviews agent skills and MCP code for suspicious behavior with Jev, static evidence, and explicit coverage gaps.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification",
+      "agent-safety"
+    ]
+  },
+  {
+    "name": "typesafe-skill-router",
+    "url": "https://github.com/DECRUX9812/typesafe-skill-router",
+    "description": "Names the one skill worth loading for Hermes Agent before the model call, opt-in and stdlib-only at about $0.001 per routed turn.",
+    "category": "Agent Frameworks & Harnesses",
+    "tags": [
+      "skills",
+      "routing"
+    ]
+  },
+  {
+    "name": "super-jev",
+    "url": "https://github.com/Kevthetech143/super-jev",
+    "description": "Small extensible decision-to-action harness for Jev.",
+    "category": "Integrations & Infrastructure",
+    "tags": []
+  },
+  {
+    "name": "JevSwiftSDK",
+    "url": "https://github.com/NSStudent/JevSwiftSDK",
+    "description": "Independent type-safe Swift SDK for Jev with async/await, batching, retries, and SPM support.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jev-autopilot",
+    "url": "https://github.com/arielweinberger/jev-autopilot",
+    "description": "Demo where Jev autonomously flies a drone across a random city from point A to B while avoiding obstacles, at about $0.01 per trip.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game",
+      "robotics"
+    ]
+  },
+  {
+    "name": "typesafe-sdk-go (captain-corgi)",
+    "url": "https://github.com/captain-corgi/typesafe-sdk-go",
+    "description": "Community TypeSafe SDK in Go.",
+    "category": "SDKs & Clients",
+    "tags": [
+      "sdk"
+    ]
+  },
+  {
+    "name": "jevgraph",
+    "url": "https://github.com/chenmingtang830/jevgraph",
+    "description": "Evidence-backed knowledge graph construction with typed Jev relation decisions.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "jeq",
+    "url": "https://github.com/cristianoliveira/jeq",
+    "description": "Pipeable jq-style filters powered by Jev.",
+    "category": "Search, Data & Retrieval",
+    "tags": []
+  },
+  {
+    "name": "reranker (hev)",
+    "url": "https://github.com/hev/reranker",
+    "description": "Uses Jev as a calibrated reranker with one call for up to 30 documents and a probability per document.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "rag",
+      "scoring"
+    ]
+  },
+  {
+    "name": "jev-reranker",
+    "url": "https://github.com/hotchpotch/jev-reranker",
+    "description": "Jev-powered relevance filtering and reranking for RAG in Python.",
+    "category": "Search, Data & Retrieval",
+    "tags": [
+      "rag",
+      "scoring"
+    ]
+  },
+  {
+    "name": "omp-jev-compaction",
+    "url": "https://github.com/jerryfane/omp-jev-compaction",
+    "description": "Verbatim Jev-scored context reduction for omp over TypeSafe or OpenRouter.",
+    "category": "Context & Memory",
+    "tags": [
+      "context-management",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "jev-jarvis",
+    "url": "https://github.com/jev-jarvis/jev-jarvis",
+    "description": "Read-only macOS floating window that watches WeChat, judges message intent and risk with a local small model, and drafts reply candidates without injecting into WeChat.",
+    "category": "Apps & Utilities",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "name": "jev-ultrafast-mcp",
+    "url": "https://github.com/jiawei686/jev-ultrafast-mcp",
+    "description": "MCP server where a decision model drives the page for your agent so a flow costs one tool call instead of a turn per click, speaking CDP to your Chrome.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation",
+      "mcp"
+    ]
+  },
+  {
+    "name": "jev-test-filter",
+    "url": "https://github.com/mizchi/jev-test-filter",
+    "description": "Scores every test against a Git diff with Jev and emits the filter arguments Vitest, node:test, Playwright, cargo test, and go test understand.",
+    "category": "Integrations & Infrastructure",
+    "tags": [
+      "verification"
+    ]
+  },
+  {
+    "name": "jev-router (rajdhakad9826)",
+    "url": "https://github.com/rajdhakad9826/jev-router",
+    "description": "Cost-aware LLM router that picks the cheapest capable model for a query using Jev instead of an LLM call.",
+    "category": "Classification & Routing",
+    "tags": [
+      "routing"
+    ]
+  },
+  {
+    "name": "AskJev",
+    "url": "https://github.com/ranjan2829/AskJev",
+    "description": "Jev autopilot for any website with a guard on irreversible clicks.",
+    "category": "Browser & Computer Use",
+    "tags": [
+      "browser-automation",
+      "guardrails"
+    ]
+  },
+  {
+    "name": "vllm-jev-decison",
+    "url": "https://github.com/siliconkernel/vllm-jev-decison",
+    "description": "Classification-only typed decisions for vLLM with finite-schema candidate scoring, probabilities, and abstention.",
+    "category": "Open Reproductions & Research",
+    "tags": [
+      "open-alternative"
+    ]
+  },
+  {
+    "name": "probably",
+    "url": "https://github.com/southpolesteve/probably",
+    "description": "Small programming language for LLM workflows powered by Jev.",
+    "category": "SDKs & Clients",
+    "tags": []
+  },
+  {
+    "name": "lkclean",
+    "url": "https://github.com/stefw/lkclean",
+    "description": "Chrome extension that hides engagement bait, self-promo, and off-topic posts on LinkedIn with Jev and explains every decision.",
+    "category": "Content Moderation & Feeds",
+    "tags": [
+      "moderation"
+    ]
+  },
+  {
+    "name": "jev-commit",
+    "url": "https://github.com/valentynkit/jev-commit",
+    "description": "Pre-commit hook where one Jev call judges whether the commit message matches the diff and checks for debug leftovers, scope creep, and secrets.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "pi-jev-router (win4r)",
+    "url": "https://github.com/win4r/pi-jev-router",
+    "description": "Task-boundary model routing for Pi with conservative policies, exact caching, and observable failover.",
+    "category": "Coding Agents",
+    "tags": [
+      "routing",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "slo-router",
+    "url": "https://github.com/zeeshan8281/slo-router",
+    "description": "SLO-aware LLM inference router with Jev decisions, live queue metrics, counterfactual evaluation, and reproducible latency and cost benchmarks.",
+    "category": "Classification & Routing",
+    "tags": [
+      "routing"
+    ]
+  },
+  {
+    "name": "heist-one",
+    "url": "https://github.com/AbdelStark/heist-one",
+    "description": "Observable browser stealth game where Jev makes typed guard judgments while deterministic code owns the world.",
+    "category": "Games, Robotics & Simulation",
+    "tags": [
+      "game"
+    ]
+  },
+  {
+    "name": "JevPR",
+    "url": "https://github.com/HexyeDEV/JevPR",
+    "description": "Automated pull request risk review with Jev.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "Ask HN: Noul as a decision primitive",
+    "url": "https://news.ycombinator.com/item?id=49760225",
+    "description": "Proposal to treat Noul, the probability-of-true answer type, as a general software primitive rather than a Jev-specific one.",
+    "category": "Related Practices & Discussions",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "An early-access test of TypeSafe's Jev",
+    "url": "https://lindfors.no/blog/a-first-look-at-typesafes-jev/",
+    "description": "Independent early-access trial measuring calibration and reporting cost per decision.",
+    "category": "Related Practices & Discussions",
+    "tags": [
+      "research",
+      "evaluation"
+    ]
+  },
+  {
+    "name": "Jev is the fish at the poker table",
+    "url": "https://backnotprop.com/blog/jev-poker/",
+    "description": "Plays poker with Jev to probe where a fast decision model helps and where it does not.",
+    "category": "Related Practices & Discussions",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "name": "Jev Is Not an LLM, and That May Be the Point",
+    "url": "https://forkast.news/typesafe-ais-jev-is-not-an-llm-and-that-may-be-the-point/",
+    "description": "News analysis treating the refusal to generate text as the feature and following through on what it implies for inference spend.",
+    "category": "Related Practices & Discussions",
+    "tags": []
+  },
+  {
+    "name": "Jev judge call vs dimension scores",
+    "url": "https://agentjournal.dev/blog/llm-judge-vs-feature-extraction/",
+    "description": "Compares one direct Jev question per row against 12-14 Jev-scored dimensions with fitted weights on three classification tasks.",
+    "category": "Related Practices & Discussions",
+    "tags": [
+      "evaluation",
+      "research"
+    ]
+  },
+  {
+    "name": "Jev vs Mistral and Gemini for event validation",
+    "url": "https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation",
+    "description": "Head-to-head test of Jev against Mistral Small and Gemini Flash-Lite at validating local event listings.",
+    "category": "Related Practices & Discussions",
+    "tags": [
+      "evaluation"
+    ]
+  },
+  {
+    "name": "SemanticSpace",
+    "url": "https://semanticspace.dev/",
+    "description": "Places phrases in 2D by asking Jev how strongly each relates to two chosen axis concepts.",
+    "category": "Apps & Utilities",
+    "tags": []
+  },
+  {
+    "name": "Blink",
+    "url": "https://blink.review",
+    "description": "CLI that coding agents run after every change, with Jev checking the diff in place of an LLM reviewer.",
+    "category": "Verification & Guardrails",
+    "tags": [
+      "verification",
+      "coding-agents"
+    ]
+  },
+  {
+    "name": "Jev AI playground",
+    "url": "https://jev-ai.pro",
+    "description": "Public playground and API for putting typed questions to Jev about pasted text.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": []
+  }
+]

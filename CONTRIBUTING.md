@@ -12,50 +12,80 @@ Thanks for helping keep this list useful. Quick guide below.
 - Generic classifiers/routers/agents that merely resemble the pattern without touching Jev.
 - Pure opinion or theory with no working artifact.
 - Broken links, dead repos, or duplicates of an existing entry.
+- Other awesome-lists or directories (we link a few in Related, but the list isn't a list of lists).
 - Long write-ups inside the list itself — link out instead.
 
 ## How to submit
 
-1. Fork, branch, add your entry, open a PR.
-2. Use exactly this line format — description ends in a period, then the tags in italics:
+README.md is **generated** — don't edit it by hand. Entries live in `data/entries.json`.
 
-   ```md
-   - [Name](URL) - One-sentence description of what it does with Jev. *#tag1 #tag2*
+1. Fork and branch.
+2. Add one object to `data/entries.json`:
+
+   ```json
+   {
+     "name": "jev-axi",
+     "url": "https://github.com/shiftynick/jev-axi",
+     "description": "Agent-ergonomic CLI for Jev giving fast calibrated pick, rate, check, rank, triage, and guard judgments from the shell.",
+     "category": "Integrations & Infrastructure",
+     "tags": ["coding-agents"]
+   }
    ```
 
-3. Put it in the single closest-fit category (see the [README](README.md#contents)). If it spans two, pick the one closest to its primary use case — tags cover the rest.
-4. Keep entries alphabetical by name within their category.
-5. Descriptions: one sentence, start with a capital, end with a period, describe function not marketing.
-6. Tag with 1-3 tags from the taxonomy below. Don't invent new tags in a PR — open an issue first if you think one's missing.
+   - `name`: the project's name. If another entry shares it, add the owner in parentheses: `jev-mcp (jkudish)`.
+   - `description`: one sentence, starts with a capital, ends with a period, describes function not marketing. Don't start it with the project name.
+   - `category`: exactly one from the list below — the closest fit to its primary use. Tags cover the rest.
+   - `tags`: 0-3 from the taxonomy below. Don't invent new tags in a PR; open an issue first.
+3. Run `node scripts/build.mjs` to regenerate README.md (it validates the entry and sorts everything), then commit both files.
+4. Open a PR — one entry per PR.
+
+## Categories
+
+Official Resources · Classification & Routing · Verification & Guardrails · Scoring & Ranking · Coding Agents · Browser & Computer Use · Context & Memory · Agent Frameworks & Harnesses · Search, Data & Retrieval · Apps & Utilities · Games, Robotics & Simulation · Finance & Trading · Content Moderation & Feeds · Evaluation & Benchmarking · Open Reproductions & Research · SDKs & Clients · Integrations & Infrastructure · Guides, Skills & Tutorials · Related Practices & Discussions
+
+Rough guide when two fit: something built *for* a coding agent (Claude Code, Codex, Pi, Cursor, Hermes) goes in **Coding Agents** even if it also routes or guards; a general-purpose SDK goes in **SDKs & Clients**; an MCP server or gateway goes in **Integrations & Infrastructure**.
 
 ## Tag taxonomy
 
-Tags exist so entries can be filtered across category lines (an entry can be both agent safety *and* a coding-agent tool, for example). Use only these:
+Tags exist so entries can be filtered across category lines. Use only these (the build script rejects anything else):
 
 | Tag | Use for |
 | --- | --- |
-| `#routing` | Model or task routing decisions |
-| `#verification` | Checking correctness, gating on a typed verdict |
-| `#guardrails` | Safety/permission gates on agent actions |
-| `#scoring` | Ranking, grading, or scoring content |
-| `#agent-safety` | Guarding autonomous agent behavior specifically |
-| `#coding-agents` | Built for Claude Code, Codex, Pi, Cursor, etc. |
-| `#browser-automation` | Browser or computer-use control loops |
-| `#context-management` | Compaction, pruning, memory |
-| `#mcp` | Ships as or integrates with an MCP server |
-| `#sdk` | Client library / language SDK |
-| `#open-alternative` | Open-weight reproduction of the Jev interface |
-| `#evaluation` | Benchmarks Jev or compares it to other models |
-| `#game` | Games or simulations |
-| `#finance` | Trading or financial decisions |
-| `#moderation` | Content moderation or spam filtering |
-| `#research` | Independent calibration/technical analysis |
+| `routing` | Model, tool, or task routing decisions |
+| `classification` | Labeling or categorizing content |
+| `verification` | Checking correctness, gating on a typed verdict |
+| `guardrails` | Safety or permission gates on actions |
+| `agent-safety` | Guarding autonomous agent behavior specifically |
+| `scoring` | Ranking, grading, or scoring content |
+| `rag` | Retrieval, reranking, search relevance |
+| `sql` | Database extensions and query integrations |
+| `coding-agents` | Built for or around Claude Code, Codex, Pi, Cursor, Hermes, etc. |
+| `browser-automation` | Browser control loops |
+| `computer-use` | Desktop or OS-level control |
+| `mobile` | Android or iOS |
+| `voice` | Speech input or output |
+| `context-management` | Compaction, pruning, context curation |
+| `memory` | Agent memory stores and retrieval |
+| `mcp` | Ships as or integrates with an MCP server |
+| `sdk` | Client library or language SDK |
+| `plugin` | Plugin or extension for a specific host tool |
+| `skills` | Agent skills packages |
+| `open-alternative` | Open-weight or local reproduction of the Jev interface |
+| `evaluation` | Benchmarks Jev or compares it to other models |
+| `research` | Independent calibration or technical analysis |
+| `game` | Games and simulations |
+| `robotics` | Physical or simulated robots and drones |
+| `finance` | Trading or financial decisions |
+| `moderation` | Content moderation, spam, and feed filtering |
+| `email` | Email triage and classification |
+| `productivity` | End-user utilities |
 
 ## Inclusion bar
 
 - Link resolves and the project is reachable (public repo, live page, or archived thread).
 - If it's a repo: the README or code shows a real call into Jev, not just a mention.
 - If it carries a performance number (latency, accuracy, cost), it should be traceable to the source — we don't re-verify it, but strip numbers that don't trace anywhere.
+- Repos are currently added at 5+ stars with recent activity; official, essential, or clearly substantive entries are exceptions.
 
 ## Curation is not endorsement
 
@@ -76,16 +106,17 @@ This matters especially for projects that arrive in bulk — when one author shi
 AI-assisted writeups and scaffolded projects are welcome under the same bar as anything else — but a few things get extra scrutiny:
 
 - **One PR per entry.** Bulk PRs adding many entries at once are harder to review and more likely to get reverted wholesale if one entry is bad.
-- **Scaffolded repos** (shared boilerplate like matching `AGENTS.md`/`STATE.md`/`CHANGELOG.md` across several same-day repos from one author) aren't excluded, but reviewers will look harder for real code behind the prose.
-- **Don't submit your own project more than once** if it was already declined — address the specific reason it was declined, or don't resubmit.
+- **Scaffolded repos** (shared boilerplate across several same-day repos from one author) aren't excluded, but reviewers will look harder for real code behind the prose.
+- **Don't resubmit a declined entry** without addressing the specific reason it was declined.
 
 ## Removing entries
 
-Found a dead link, an abandoned project, or something that shouldn't have been included? Open a PR removing it, or file an issue. Removal is exactly as valid a contribution as addition.
+Found a dead link, an abandoned project, or something that shouldn't have been included? Open a PR removing it from `data/entries.json`, or file an issue. Removal is exactly as valid a contribution as addition.
 
 ## Local check
 
-No build step is required. Before opening a PR, just confirm:
-- the link works,
-- the line matches the format above,
-- the entry is alphabetized within its category.
+```sh
+node scripts/build.mjs          # regenerate README.md (validates entries)
+node scripts/build.mjs --check  # fails if README.md is stale
+npx awesome-lint README.md      # the same lint the awesome list uses
+```

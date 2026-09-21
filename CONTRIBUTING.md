@@ -17,13 +17,13 @@ Thanks for helping keep this list useful. Quick guide below.
 ## How to submit
 
 1. Fork, branch, add your entry, open a PR.
-2. Use exactly this line format — tags come first, description last, so the line still ends in a period:
+2. Use exactly this line format — description ends in a period, then the tags in italics:
 
    ```md
-   - `#tag1` `#tag2` [Name](URL) - One-sentence description of what it does with Jev.
+   - [Name](URL) - One-sentence description of what it does with Jev. *#tag1 #tag2*
    ```
 
-3. Put it in the single closest-fit category (see [README](README.md#categories)). If it spans two, pick the one closest to its primary use case — tags cover the rest.
+3. Put it in the single closest-fit category (see the [README](README.md#contents)). If it spans two, pick the one closest to its primary use case — tags cover the rest.
 4. Keep entries alphabetical by name within their category.
 5. Descriptions: one sentence, start with a capital, end with a period, describe function not marketing.
 6. Tag with 1-3 tags from the taxonomy below. Don't invent new tags in a PR — open an issue first if you think one's missing.
@@ -57,7 +57,19 @@ Tags exist so entries can be filtered across category lines (an entry can be bot
 - If it's a repo: the README or code shows a real call into Jev, not just a mention.
 - If it carries a performance number (latency, accuracy, cost), it should be traceable to the source — we don't re-verify it, but strip numbers that don't trace anywhere.
 
-Inclusion is not an endorsement or a security/quality audit — see the README's [curation is not endorsement](README.md#curation-is-not-endorsement) section before you rely on anything listed here.
+## Curation is not endorsement
+
+Being listed means one thing: the entry satisfies the bar above. It is not a security audit, a quality review, or a guarantee that the code compiles, the tests pass, or the published numbers reproduce.
+
+This matters especially for projects that arrive in bulk — when one author ships several repos in a day sharing a single scaffold (the same `AGENTS.md`, `STATE.md`, `CHANGELOG.md`), that can be entirely legitimate, but it's unproven until someone checks. Before depending on anything in the list, verify it yourself:
+
+| Check | Why it matters |
+| --- | --- |
+| Does the code actually call the Jev API? | A README can describe the pattern without the project doing it. Look for a real typed request going out and a parsed answer coming back. |
+| Is there a runnable check? | A test, a worked example with expected output, or a public demo — otherwise there's no evidence it works. |
+| Do the numbers trace anywhere? | Any latency, accuracy, or cost figure should point back to its source. |
+| How much of the repo is code vs. prose? | Some entries are mostly a prompt and a README. That can still be legitimate — just know what you're getting. |
+| Is there a license? | No license limits how you can reuse or redistribute it. |
 
 ## AI-assisted submissions and bulk PRs
 

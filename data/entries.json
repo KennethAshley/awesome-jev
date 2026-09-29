@@ -1,5 +1,12 @@
 [
   {
+    "name": "Jev in the Wild",
+    "url": "https://arxiv.org/abs/2609.30216",
+    "description": "Data-driven study of 2,170 public GitHub Jev projects, reporting early growth, application domains, and decision-use patterns.",
+    "category": "Open Reproductions & Research",
+    "tags": ["research"]
+  },
+  {
     "name": "TypeSafe AI",
     "url": "https://typesafe.ai/",
     "description": "The company behind Jev and System One models.",

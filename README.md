@@ -4,7 +4,7 @@
 
 Jev isn't a chat model. Give it unstructured state plus a typed question (a choice, a score, a yes/no) and it returns a typed decision with a confidence value, with no token-by-token generation in the loop. That makes it a fast, cheap decision layer for classification, routing, verification gates, and agent guardrails.
 
-Each entry ends with italic tags for filtering across categories. Listing is not endorsement: the inclusion bar, the tag taxonomy, and a checklist for verifying an entry before you rely on it are in CONTRIBUTING.md. Every entry is a public repo or page that was live when added; 410 entries across 19 categories.
+Each entry ends with italic tags for filtering across categories. Listing is not endorsement: the inclusion bar, the tag taxonomy, and a checklist for verifying an entry before you rely on it are in CONTRIBUTING.md. Every entry is a public repo or page that was live when added; 411 entries across 19 categories.
 
 ## Contents
 
@@ -350,6 +350,7 @@ Each entry ends with italic tags for filtering across categories. Listing is not
 - [dohnuts](https://github.com/PsiACE/dohnuts) - Builds small multimodal models for direct decisions in the System One style. *#open-alternative #research*
 - [edgejev](https://github.com/yzfly/edgejev) - Local, offline System One inference on CPU with ONNX and INT8, about 15 ms per question on 4 cores, supporting Laya, kev, and PlayJev. *#open-alternative*
 - [jeff (logan-markewich)](https://github.com/logan-markewich/jeff) - Self-hosted drop-in replacement for Jev powered by GliFormer. *#open-alternative*
+- [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Data-driven study of 2,170 public GitHub Jev projects, reporting early growth, application domains, and decision-use patterns. *#research*
 - [jev_local (Argos1111)](https://github.com/Argos1111/jev_local) - Replicates Jev with a local LLM. *#open-alternative*
 - [JEV-CPU](https://github.com/leesk212/JEV-CPU) - Runs SemIf-style semantic-if decisions on CPU with no GPU, reading typed option probabilities from an open model in one pass, with a web UI. *#open-alternative*
 - [jev-forge](https://github.com/zwliJay/jev-forge) - Open training and inference stack for Jev-style decision models that score dynamic candidate branches from a shared prefix. *#open-alternative #research*

@@ -4,7 +4,7 @@
 
 Jev isn't a chat model. Give it unstructured state plus a typed question (a choice, a score, a yes/no) and it returns a typed decision with a confidence value, with no token-by-token generation in the loop. That makes it a fast, cheap decision layer for classification, routing, verification gates, and agent guardrails.
 
-Each entry ends with italic tags for filtering across categories. Listing is not endorsement: the inclusion bar, the tag taxonomy, and a checklist for verifying an entry before you rely on it are in CONTRIBUTING.md. Every entry is a public repo or page that was live when added; 410 entries across 19 categories.
+Each entry ends with italic tags for filtering across categories. Listing is not endorsement: the inclusion bar, the tag taxonomy, and a checklist for verifying an entry before you rely on it are in CONTRIBUTING.md. Every entry is a public repo or page that was live when added; 411 entries across 19 categories.
 
 ## Contents
 
@@ -483,6 +483,7 @@ Each entry ends with italic tags for filtering across categories. Listing is not
 - [jevies](https://github.com/Ezbaze/jevies) - Little Jevs that help design and review other Jevs.
 - [jevify (altryne)](https://github.com/altryne/jevify) - Agent skill to discover Jev opportunities, design typed questions, and learn from recent community experiments. *#skills*
 - [PlayJev (MoeclubM)](https://github.com/MoeclubM/PlayJev) - Improved Jev playground.
+- [Qorx Flow FastAPI case study](https://qorx.hashnode.dev/i-gave-jev-two-plausible-fastapi-files-neither-was-the-answer) - Records a FastAPI lookup in which Jev selects none of the offered candidates using cited source excerpts, including a reversed option order. *#coding-agents #verification*
 - [typesafe-playground](https://github.com/kavehmz/typesafe-playground) - Interactive Jev experiments from support routing to 3D driving simulations with visible sensor inputs.
 
 ## Related Practices & Discussions

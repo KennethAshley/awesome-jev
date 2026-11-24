@@ -3746,5 +3746,15 @@
     "description": "Public playground and API for putting typed questions to Jev about pasted text.",
     "category": "Guides, Skills & Tutorials",
     "tags": []
+  },
+  {
+    "name": "Qorx Flow FastAPI case study",
+    "url": "https://qorx.hashnode.dev/i-gave-jev-two-plausible-fastapi-files-neither-was-the-answer",
+    "description": "Records a FastAPI lookup in which Jev selects none of the offered candidates using cited source excerpts, including a reversed option order.",
+    "category": "Guides, Skills & Tutorials",
+    "tags": [
+      "coding-agents",
+      "verification"
+    ]
   }
 ]
